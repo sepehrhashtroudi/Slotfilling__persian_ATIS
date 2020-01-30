@@ -1,0 +1,18 @@
+﻿BOS کولر را روشن کن EOS o o command_on o device_cooler o cooler_command
+BOS کولرو بزن EOS o command_on device_cooler o cooler_command
+BOS کولر  رو خاموش کن EOS o o command_off o device_cooler o cooler_command
+BOS سرده کولرو خاموش کن EOS o o command_off device_cooler o o cooler_command
+BOS خاموش کن کولر رو EOS o o device_cooler o command_off o cooler_command
+BOS کولر رو خاموش کن EOS o o command_off o device_cooler o cooler_command
+BOS کولر رو روشن کن EOS o o command_on o device_cooler o cooler_command
+BOS کولر خاموش کن EOS o o command_off device_cooler o cooler_command
+BOS کولرو قطعش کن EOS o o command_off device_cooler o cooler_command
+BOS کولر رو فعال کن EOS o o command_on o device_cooler o cooler_command
+BOS کولرو روشن میکنی EOS o o command_on device_cooler o cooler_command
+BOS کولرو خاموش کن لطفا EOS o o o command_off device_cooler o cooler_command
+BOS کولر را در وضعیت خاموش قرار بده EOS o o o command_off o o o device_cooler o cooler_command
+BOS کولرو خاموش کن EOS o o command_off device_cooler o cooler_command
+BOS اون کولر لعنتی رو روشن کن EOS o o command_on o o device_cooler o o cooler_command
+BOS لطفا کولر روشن شود EOS o o command_on device_cooler o o cooler_command
+BOS کولرو بزن EOS o command_on device_cooler o cooler_command
+BOS کولر روشن شه EOS o o command_on device_cooler o cooler_command

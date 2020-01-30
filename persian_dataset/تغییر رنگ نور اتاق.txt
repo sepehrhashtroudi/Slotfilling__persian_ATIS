@@ -1,0 +1,33 @@
+﻿BOS نور اتاقو ابی کن EOS o command_set colour loc_room o o colour_command_set 
+BOS نور اتاقو قرمز کن EOS o command_set colour loc_room o o colour_command_set
+BOS نور اتاق را آبی کنید EOS o command_set colour o loc_room o o colour_command_set
+BOS تغییر رنگ نور اتاق EOS o loc_room o o command_change o colour_command_set
+BOS نور رو گرم کن EOS o command_set colour o o o colour_command_set
+BOS یکم نور رو گرمتر میکنی EOS o command_set colour o o o o colour_command_set
+BOS اتاق خیلی دلگیره آبی کنش EOS o command_set colour o o loc_room o colour_command_set
+BOS چراغارو روشن کن دلمون باز شه EOS o o o o o command_set o o colour_command_set
+BOS نور اتاق بیشتر کنید EOS o o command_increase loc_room o o colour_command_increase
+BOS اتاق روشن کن EOS o o command_set loc_room o colour_command_set
+BOS نور اتاق را به قرمز تغییر دهید EOS o o command_set colour o o loc_room o o colour_command_set
+BOS اتاقو قرمز کن EOS o command_set colour loc_room o colour_command_set
+BOS نور رو عوض کن EOS o o command_change o o o colour_command_change
+BOS رنگ خونه رو تغییر بده EOS o o command_change o loc_parlor o o colour_command_change
+BOS نور رو کم کن EOS o o command_decrease o o o colour_command_decrease
+BOS نور اتاقو آفتابی کن EOS o command_set colour loc_room o o colour_command_set
+BOS نورو آفتابی کن EOS o command_set colour o o colour_command_set
+BOS نور اتاق رو گلبهی کن EOS o command_set colour o loc_room o o colour_command_set
+BOS نور اتاق گلبهی بشه EOS o command_set colour loc_room o o colour_command_set
+BOS رنگ رو عوض كن EOS o o command_change o o o colour_command_change
+BOS نور هالو کم کن EOS o o command_decrease loc_parlor o o colour_command_decrease
+BOS نور هال رو کمتر کن EOS o o command_decrease o loc_parlor o o colour_command_decrease
+BOS نور اتاق را به نوری به رنگ قرمز تغییر بدهید EOS o o command_set colour o o o o o loc_room o o colour_command_set
+BOS اتاقو قرمز کن EOS o command_set colour loc_room o colour_command_set
+BOS نور اتاق آبی باشه EOS o command_set colour loc_room o o colour_command_set
+BOS رنگ نور اتاق را به زرد تغییر بده EOS o o command_set colour o o loc_room o o o colour_command_set
+BOS نور اتاقو زرد کن EOS o command_set colour loc_room o o colour_command_set
+BOS نور پذیرایی رو به سفید تغییر بده EOS o o command_set colour o o loc_parlor o o colour_command_set
+BOS نور هال رو سفید کن EOS o o colour o loc_parlor o o colour_command_set
+BOS نور اتاق رو زرد کن EOS o o colour o loc_room o o colour_command_set
+BOS نور اتاق رو به زرد تغییر بده EOS o o command_set colour o o loc_room o o colour_command_set
+BOS اتاقم آبی  شو EOS  o command_set colour loc_room o colour_command_set
+BOS نور اتاق آبی شه EOS o command_set colour loc_room o o colour_command_set

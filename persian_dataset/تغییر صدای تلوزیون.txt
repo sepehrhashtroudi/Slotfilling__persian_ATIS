@@ -1,0 +1,23 @@
+﻿BOS صدای تلویزیون رو زیاد کن EOS o o command_increase o device_TV volume o tv_volume_command
+BOS صدارو کم کن EOS o o command_decrease o volume o tv_volume_command
+BOS صدای تلویزیون را زیاد کن EOS o o command_increase o device_TV volume o tv_volume_command
+BOS صدای تلویزیونو ببند EOS o command_off device_TV volume o tv_volume_command
+BOS صداشو زیاد کن EOS o o command_increase volume o tv_volume_command
+BOS تلویزیونو میوت کن EOS o o command_off device_TV o tv_volume_command
+BOS صدا تلویزیون رو کم کن EOS o o command_decrease o device_TV volume o tv_volume_command
+BOS صدا تلویزیون رو زیاد کن EOS o o command_increase o device_TV volume o tv_volume_command
+BOS صداشو کم کن EOS o o command_decrease volume o tv_volume_command
+BOS صداشو بلند کن EOS o o command_increase volume o tv_volume_command
+BOS صدای تلویزیونو کم کن EOS o o command_decrease device_TV volume o tv_volume_command
+BOS صدای تلویزیونو زیاد کن EOS o o command_increase device_TV volume o tv_volume_command
+BOS صدارو زیاد کن EOS o o command_increase volume o tv_volume_command
+BOS صدای تلیویزیونو باز کن EOS o o command_increase device_TV volume o tv_volume_command
+BOS تلویزیونو صدادار کن EOS o o command_increase device_TV o tv_volume_command
+BOS صدای تلویزیون را کم کنید EOS o o command_decrease o device_TV volume o tv_volume_command
+BOS صدای تلویزیونو کمش کن EOS o o command_decrease device_TV volume o tv_volume_command
+BOS صدای تلوزیون رو کم کن EOS o o command_decrease o device_TV volume o  tv_volume_command
+BOS صدای تلوزیون رو زیاد کن EOS o o command_increase o device_TV volume o tv_volume_command
+BOS کمش کن EOS o o command_decrease o tv_volume_command
+BOS صدا زیاده EOS o command_increase volume o tv_volume_command  ?????
+BOS صداشو کم‌ کن EOS o o command_decrease volume o tv_volume_command
+BOS صدای تلویزیون را کم کن EOS o o command_decrease o device_TV volume o tv_volume_command

@@ -1,0 +1,18 @@
+﻿BOS دور کولر را زیاد کن EOS o o command_increase o device_cooler o o cooler_command_increase
+BOS کولرو بزن رو تند EOS o command_increase o o device_cooler o cooler_command_increase
+BOS کولرو کمش کن EOS o o command_decrease device_cooler o cooler_command_decrease
+BOS کولرو بزار رو کم EOS o command_decrease o o device_cooler o cooler_command_decrease
+BOS سرعت باد کولر رو ببر بالا EOS o command_increase o o device_cooler o o o cooler_command_increase
+BOS سرعت باد کولر رو بیار پایین EOS o command_decrease o o device_cooler o o cooler_command_decrease
+BOS کولر رو بذار رو دور تند EOS o command_increase o o o o device_cooler o cooler_command_increase
+BOS کولر زیاد کن EOS o o command_increase device_cooler o cooler_command_increase
+BOS کولرو بزار رو دور کند EOS o command_decrease o o o device_cooler o cooler_command_decrease
+BOS کولرو کمش کن EOS o o command_decrease device_cooler o cooler_command_decrease
+BOS کولرو بزن رو دور تند EOS o command_increase o o o device_cooler o cooler_command_increase
+BOS کولرو بزار روی کند EOS o command_decrease o o device_cooler o cooler_command_decrease
+BOS سرعت کولر را در دور تند قراره بده EOS o o o command_increase o o o device_cooler o o cooler_command_increase
+BOS کولر رو بزن رو تند EOS o command_increase o o o device_cooler o cooler_command_increase
+BOS کولر رو دور تند باشه EOS o o command_increase o o device_cooler cooler_command_increase
+BOS دور کولر رو تندتر کن EOS o o command_increase o device_cooler o cooler_command_increase
+BOS زیادش کن EOS o o command_increase o cooler_command_increase
+BOS باد کولر کمه EOS o command_decrease device_cooler o o cooler_command_increase ??

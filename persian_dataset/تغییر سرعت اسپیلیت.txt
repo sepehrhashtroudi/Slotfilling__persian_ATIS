@@ -1,0 +1,16 @@
+﻿BOS فن اسپلیتو کم کن EOS O O command_decrease device_split speed o split_command_speed
+BOS اسپلیتو بزار رو دور تند EOS o command_increase o o o device_split o split_command_speed
+BOS سرعت اسپیلیت ببر بالاتر EOS o command_increase o device_split speed o split_command_speed
+BOS سرعت اسپیلیت کم کن EOS o o command_decrease device_split speed o split_command_speed
+BOS باد اسپیلت را زیاد کن EOS o o command_increase o device_split speed o split_command_speed
+BOS اسپلیتو زیاد کن EOS o o command_increase device_split o split_command_speed
+BOS سویینگ اسپلیت رو خاموش کن EOS o o command_off o device_split swing o split_command_swing
+BOS باد کولر رو کمش کن EOS o o command_decrease o device_split speed o split_command_speed
+BOS باد کولر رو زیادش کن EOS o o command_increase o device_split speed o split_command_speed
+BOS سردم شد EOS o o command_decrease o split_command_speed  ??
+BOS سرعت اسپلیت را کم کن EOS o o command_decrease o device_split speed o split_command_speed
+BOS سرعت اسپیلیت رو بیشتر کن EOS o o command_increase o device_split speed o split_command_speed
+BOS اسپیلیت رو زیادش کن EOS o o command_increase o device_split o split_command_speed
+BOS سرعتو زیاد کن EOS o o command_increase speed o split_command_speed
+BOS بهتره سرعت زیاد شود EOS o o command_increase speed o o split_command_speed
+BOS باد اسپلیت کمه EOS o command_decrease device_split speed o split_command_speed  ??

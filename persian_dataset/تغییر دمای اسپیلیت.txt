@@ -1,0 +1,16 @@
+﻿BOS دما رو دو درجه بیشتر کن EOS o command_increase o delta_temp o o o split_command_temp
+BOS دمای رو روی حالت نرمال قرار بده EOS o o command_set command_mode_normal o o o o split_command_temp
+BOS دمای اسپلیتو رو ۲۰ درجه بزار EOS o command_set o temp o device_split o o split_command_temp
+BOS هوا گرمه، اتاق خنک کن EOS o o command_decrease loc_room o o o split_command_temp
+BOS هوا خیلی سرده، دما رو ببر بالا EOS o command_increase o o o o o o o split_command_temp
+BOS اسپلیتو خنک تر کن EOS o o command_decrease device_split o split_command_temp
+BOS دمای اسپلیت را روی ۲۰ درجه تنظیم کن EOS o o command_set o temp o o device_split o o split_command_temp
+BOS اسپلیتو بزار رو ۲۰ درجه EOS o o temp o command_set device_split o split_command_temp
+BOS اسپلیتو خنکتر کن EOS o o command_decrease device_split o split_command_temp
+BOS دمای کولرو کم کن EOS o o command_decrease device_split o o split_command_temp
+BOS دما کولرو کم کن EOS o o command_decrease device_split o o split_command_temp
+BOS دما اسپلیت رو زیادش کن EOS o o command_increase o device_split o o split_command_temp
+BOS هوای اتاق دو درجه رو سرد تر کن EOS o o command_decrease o o delta_temp loc_room o o split_command_temp
+BOS هوای آشپزخونه سردتر باشه بهتره EOS o o o command_decrease loc_kitchen o o split_command_temp
+BOS زیادش کن EOS o o command_increase o split_command_temp
+BOS سردتر EOS o command_decrease o split_command_temp

@@ -1,0 +1,28 @@
+﻿BOS ماشین لباسشویی رو بزن به برق EOS O command_on O O O device O O washing_clothes_command_on
+BOS ماشین لباسشویی رو راه بنداز EOS O command_on O device O O washing_clothes_command_on
+BOS استدعا دارم ماشین لباسشویی را روشن کنید EOS O O command_on O device O O O O washing_clothes_command_on
+BOS روشن شه اون لباسشویی EOS O device O O command_on O washing_clothes_command_on
+BOS لبساشویی رو تنظیم کن EOS O O O O device O washing_clothes_command_on
+BOS خشک کن لباسشویی رو بزن EOS O O O device O command_mode O washing_clothes_command_on
+BOS این لباسا رو در حد عرق گیری بشور EOS O O command_mode O O O O O O washing_clothes_command_on
+BOS لباسا رو با برنامه لباس های پشمی بشور EOS O command_mode O O O O O O O washing_clothes_command_on
+BOS ماشین لباسشویی را روشن کن EOS O command_on O device O O washing_clothes_command_on
+BOS لباس ها رو بشور EOS O O O O O O washing_clothes_command_on
+BOS ماشین لباسشویی را روشن کنید. EOS O O command_on O device O O washing_clothes_command_on
+BOS ماشین لباسشویی رو روشن کن. EOS O O command_on O device O O washing_clothes_command_on
+BOS لباسشویی روشن شه EOS O O command_on device O washing_clothes_command_on
+BOS لباس شویی رو خاموشش کن EOS O O command_off O device O washing_clothes_command_off
+BOS ماشین لباسشوییو روشن کن EOS O O command_on device O O washing_clothes_command_on
+BOS ماشین لباسشویی رو خاموش کنین EOS O O command_off O device O O washing_clothes_command_off
+BOS دکمه خاموش شدن ماشین لباسشوبزنید. EOS O O O device O O command_off O O washing_clothes_command_off
+BOS لباسشوییو روشن کن EOS O O command_on device O washing_clothes_command_on
+BOS ماشین لباسشویی را روشن کن EOS O O command_on O device O O washing_clothes_command_on 
+BOS ماشینو روشن کن EOS O O command_on device O washing_clothes_command_on
+BOS ماشین لباسشویی رو روشن کن EOS O O command_on O device O O washing_clothes_command_on
+BOS لباسشویی رو روشن کن EOS O O command_on O device O washing_clothes_command_on
+BOS لباسشویی روشن شه EOS O O command_on device O washing_clothes_command_on
+BOS لباسشویی رو حالت اقتصادی روشن شه EOS O O command_on command_mode O O device O washing_clothes_command_on
+BOS ماشین لباسشویی را روی دور تند روشن کن EOS O O command_on command_mode O O O device O O washing_clothes_command_on
+BOS ماشین لباسشوییو بزن رو دور تند EOS O command_mode O O O device O O washing_clothes_command_on
+BOS (شروع کن) لباسها رو بشور EOS O O O O O command_on O washing_clothes_command_on
+

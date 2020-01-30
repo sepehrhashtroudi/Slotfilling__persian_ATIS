@@ -1,0 +1,23 @@
+﻿BOS تلویزیون را روشن کن EOS o o command_on o device_tv o tv_command_on
+BOS تلویزیونو باز کن EOS o o command_on device_tv o tv_command_on
+BOS تیلیویزیونو  خاموش کن EOS o o command_off device_tv o tv_command_off
+BOS میشه تلویزیونو  ببندی EOS o command_off device_tv o o tv_command_off
+BOS ببند تلویزیون رو EOS o o device_tv command_off o tv_command_off
+BOS روشن کن تی‌وی رو EOS o o device_tv o command_on o tv_command_on
+BOS میشه لطف کنی تلویزیونو روشن کنی EOS o o command_on device_tv o o o o tv_command_on
+BOS تلویزیون را خاموش بفرمایید EOS o o command_off o device_tv o tv_command_off
+BOS تلویزیون خاموش کن EOS o o command_off device_tv o tv_command_off
+BOS تلویزیون باز کن EOS o o command_on device_tv o tv_command_on
+BOS تلویزیونو خاموش کن EOS o o command_off device_tv o tv_command_off
+BOS تلویزیون رو خاموش کن EOS o o command_off o device_tv o tv_command_off
+BOS تلویزیون رو روشن کن EOS o o command_on o device_tv o tv_command_on
+BOS تی وی رو روشن کن EOS o o command_on o device_tv_B device_tv_I o tv_command_on
+BOS تلویزیون را روشن کنید EOS o o command_on o device_tv o tv_command_on
+BOS تلویزیونو روشن کن EOS o o command_on device_tv o tv_command_on
+BOS لطفا تلویزیون رو روشن کن EOS o o command_on o device_tv o o tv_command_on
+BOS تلوزیون روشن کن EOS o o command_on device_tv o tv_command_on
+BOS تلوزیون رو روشن کن EOS o o command_on o device_tv o tv_command_on
+BOS تلوزیون رو خاموش کن EOS o o command_off o device_tv o tv_command_off
+BOS تی وی رو بزن EOS o command_on o device_tv_B device_tv_I o tv_command_on
+BOS تلویزیون رو روشن کن EOS o o command_on o device_tv o tv_command_on
+BOS تلویزیون را روشن کن EOS o o command_on o device_tv o tv_command_on

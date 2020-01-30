@@ -1,0 +1,5 @@
+﻿BOS توان ماکروفرو بزار روی 900 EOS O powe O O device O O macro_command_power
+BOS لطفا توان ماکروفر رو به 900 تغییر بده EOS O O O power O O device O O O macro_command_power
+BOS کاکروفر زیاد شود EOS O O cammand_mode device O macro_command_power
+BOS ماکروفر زیاد شه EOS O O cammand_mode device O macro_command_power
+

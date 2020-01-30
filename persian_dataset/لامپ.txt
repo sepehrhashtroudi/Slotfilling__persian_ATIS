@@ -1,0 +1,11 @@
+﻿BOS لامپ اتاقو بزن EOS O O loc_room device O lamp_command_on
+BOS لامپ اتاق پذیرایی رو بزن EOS O O loc_room O device O lamp_command_on 
+BOS لامپا رو خاموش کن EOS O O command_off O lamp O lamp_command_off
+BOS لامپ های پذیرایی راخاموش کن EOS O O command_off O loc_room O lamp O lamp_command_off
+BOS چراغ روشن کن EOS O O command_on lamp O lamp_command_on
+BOSلامپ روشن کن EOS O O command_on lamp O lamp_command_on
+BOS لامپ را روشن کنید. EOS O O command_on O lamp O lamp_command_on
+BOS لامپو بزن. EOS O O lamp O lamp_command_on
+BOS لامپ ها رو خاموش کن EOS O O command_off O O lamp O lamp_command_off
+BOS کور کن لامپ ها رو EOS O O O lamp O command_off O lamp_command_off
+BOS چراغو روشن کن EOS O O command_on lamp O lamp_command_on

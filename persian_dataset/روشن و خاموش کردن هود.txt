@@ -1,0 +1,39 @@
+﻿BOS هود رو بزن دود بره بیرون EOS O command_mode O O O device O hood_command_on
+BOS هود رو سه دقیقه رو دور تند روشن بزار EOS O command_on command_mode O duration_B duration_I O device O hood_command_on
+BOS درجه ی هود رو بزار رو یک EOS O command_mode O O O device O O hood_command_on
+BOS هود رو یک درجه بیشتر کن EOS O command_increase O command_mode O device O hood_command_on
+BOS هود روشن EOS O command_on device O hood_command_on 
+BOS هود روشن شه EOS O O command_on device O hood_command_on
+BOS هودو روشن کن EOS O O command_on device O hood_command_on
+BOS غذا سوخت EOS O O O O hood_command_on
+BOS هود آشپزخانه را روشن کن EOS O O command_on O loc_kitchen device O hood_command_on
+BOS هودو روشن کن EOS O O command_on O device O hood_command_on
+BOS هود را روشن کنید EOS O O command_on O device O hood_command_on
+BOS هود را روشن کن EOS O O command_on O device O hood_command_on
+BOS هودو بزن EOS O O device O hood_command_on
+BOS هود رو برن EOS O O O device O hood_command_on
+BOS لظفا هود رو بزن EOS O O O device O O hood_command_on
+BOS هودو بزن دور تند EOS O command_mode O O device O hood_command_on
+BOS هود رو زیاد کن EOS O O command_mode O device O hood_command_on
+BOS هود را روشن کن EOS O O command_on O device O hood_command_on
+BOS روشن کن هود رو EOS O O device O command_on O hood_command_on
+BOS هودو روشن کن EOS O O command_on device O hood_command_on
+BOS هود را خاموش کنید EOS O O command_mode O device O hood_command_off
+BOS هود رو خاموش کن EOS O O command_mode O device O hood_command_off
+BOS هودو روشن کن EOS O O command_on device O hood_command_on
+BOS هود رو روشن کنین EOS O O command_on O device O hood_command_on
+BOS هودو میزنی EOS O O device O hood_command_on
+BOS هودو خاموش کن EOS O O command_mode device O hood_command_off
+BOS هودو بزن دور تند EOS O command_increase O O device O hood_command_on
+BOS هود رو زیاد کن EOS O O command_increase O device O hood_command_on
+BOS هود را خاموش کن EOS O O command_mode O device O hood_command_off
+BOS هود را بزن EOS O O O device O hood_command_on
+BOS روشن کن هود رو EOS O O device O command_on O hood_command_on
+BOS هود را خاموش کنید EOS O O command_mode O device O hood_command_off
+BOS هود رو خاموش کن EOS O O command_mode O device O hood_command_off
+BOS هود رو روشن کن EOS O O command_on O device O hood_command_on
+BOS هودو بزن دود بره بیرون EOS O command_mode O O O device O hood_command_on
+BOS هودو روشن کن دود بره بیرون لطفا EOS O O command_mode O O O command_mode device O hood_command_on
+BOS هواکشو روشن کن EOS O O command_mode device O hood_command_on
+BOS هود رو خاموش کن سریع تر EOS O O O command_mode O device O hood_command_off
+

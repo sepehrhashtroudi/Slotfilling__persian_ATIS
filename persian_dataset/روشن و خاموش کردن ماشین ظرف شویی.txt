@@ -1,0 +1,26 @@
+﻿BOS ماشین ظرفشویی رو برای ساعت ۳صبح تنظیم کن EOS O O O time_B time_I O O device O O washmachin_command_on
+BOS آیا ماشین ظرفشویی روشنه EOS O cammand_on device O O O washmachin_command_on
+BOS ظرف ها رو بشور EOS O O O O O O washmachin_command_on
+BOS ماشین ظرفشویی را روشن کن EOS O O cammand_on O device O O washmachin_command_on
+BOS ظرفشویی رو روشنش کن EOS O cammand_on O device O washmachin_command_on
+BOS ظرفشویی رو خاموشش کن EOS O O cammand_off O device O washmachin_command_off
+BOS ماشین ظرفشویی رو خاموش کن EOS O O cammand_off O device O O washmachin_command_off
+BOS ماشین ظرفشویی رو روشن کن EOS O O cammand_on O device O O washmachin_command_on
+BOS آیا ماشین ظرفشویی روشنه EOS O cammand_on device O O washmachin_command_on
+BOS آیا ماشین ظرفشویی کارش تموم شد EOS O O O O device O O O washmachin_command_off
+BOS ماشین ظرفشویی رو فعال کن EOS O O cammand_on O device O O washmachin_command_on
+BOS ظرفشویی رو روشن کن EOS O O cammand_on O device O washmachin_command_on
+BOS ۲ساعت دیگه ظرف ها رو بشور EOS O cammand_on O O O O time_B time_I O washmachin_command_on 
+BOS ظرف ها رو بشور EOS O cammand_on O O O O washmachin_command_on
+BOS ظرف‌ها را بشور EOS O cammand_on O O O washmachin_command_on
+BOS بشور ظرفارو EOS O O cammand_on O washmachin_command_on
+BOS لطفا ماشین ظرفشویی رو روشن کن EOS O O cammand_on O device O O O washmachin_command_on
+BOS ماشین ظرفشویی روشن شو EOS O O cammand_on device O O washmachin_command_on
+BOS ماشین ظرفشوییو روشن کن EOS O O cammand_on device O O washmachin_command_on
+BOS ماشین ظرفشویی رو روشن کن. EOS O  O cammand_on O device O O washmachin_command_on
+BOS ماشین ظرفشویی را روشن کنید EOS O O cammand_on O device O O washmachin_command_on 
+BOS اون ظرفشویی بی صاحاب رو خاموش کن بابا، اه مرسی. EOS O O O O O O cammand_off O O O device O O washmachin_command_off
+BOS لطفا ظرفشویی خاموش شود EOS O O cammand_off device O O washmachin_command_off
+BOS ظرفشوییو روشن کن EOS O O cammand_on device O washmachin_command_on
+BOS ماشین ظرفشویی روشن شود EOS O O cammand_on device O O washmachin_command_on
+BOS ظرفشویی روشن شه EOS O O cammand_on device O washmachin_command_on

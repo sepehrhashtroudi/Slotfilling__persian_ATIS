@@ -1,0 +1,39 @@
+﻿BOS محمدو میگیری EOS o command_call contact_name o contact_command_call
+BOS لطفا علی رو بگیر EOS o command_call o contact_name o o contact_command_call
+BOS با منزل تماس بگیرید EOS o o command_call contact_name o o contact_command_call
+BOS سپهرو بگیر EOS o command_call contact_name o contact_command_call
+BOS با سپهر تماس بگیر EOS o o command_call contact_name o o contact_command_call
+BOS با علی تماس بگیر EOS o o command_call contact_name o o contact_command_call
+BOS تلفنو جواب بده EOS o o command_reply device_telephone o contact_command_reply
+BOS به محمد زنگ بزن EOS o command_call contact_name o o contact_command_call
+BOS زنگ بزن پلیس EOS o contact_name o command_call o contact_command_call
+BOS تلفن رو جواب بده EOS o o command_reply o device_telephone o contact_command_reply
+BOS لطفا با مادرم تماس بگیر EOS o o command_call contact_name o o o contact_command_call
+BOS زنگ بزن به مامانم EOS o contact_name o o contact_command_call o contact_command_call
+BOS میشه به محمد حسین زنگ بزنی EOS o o command_call contact_name_B contact_name_I o o o contact_command_call
+BOS محمدحسینو میگیری EOS o command_call contact_name o contact_command_call
+BOS زنگ بزن سینا EOS o contact_name o command_call o contact_command_call
+BOS زنگ بزن مامان EOS o contact_name o command_call o contact_command_call
+BOS علیرضا رو برام بگیر ببینم EOS o o command_call o o contact_name o contact_command_call
+BOS به علیرضا زنگ بزن EOS o o command_call contact_name o o contact_command_call
+BOS لطفا با شرکت ارتباط تلفنی برقرار کنید EOS o o o command_call_B command_call_I contact_name o o o contact_command_call
+BOS یه زنگ به بابا بزن EOS o o contact_name o command_call o o contact_command_call
+BOS به مامان زنگ میزنی EOS o o command_call contact_name o o contact_command_call
+BOS زنگ بزن خونمون EOS o contact_name o command_call o contact_command_call
+BOS هر چه زودتر با منزل تماس بگیر EOS o o command_call contact_name o o o o o contact_command_call
+BOS با منزل تماس حاصل فرمایید EOS o o o command_call contact_name o o contact_command_call
+BOS زنگ بزن به بابام EOS o contact_name o o command_call o contact_command_call
+BOS یه زنگ به رسول بزن EOS o o contact_name o command_call o o contact_command_call
+BOS رسولو بگیر EOS o command_call contact_name o contact_command_call
+BOS یه زنگ به کشا بزن EOS o o contact_name o command_call o o contact_command_call
+BOS حسن رو بگیر EOS o command_call o contact_name o contact_command_call
+BOS علی رو برام بگیر EOS o command_call o o contact_name o contact_command_call
+BOS محمدو برام میگیری EOS o command_call o contact_name o contact_command_call
+BOS یه زنگ به پدر بزرگ بزن EOS o o contact_name_B contact_name_I o command_call o o contact_command_call
+BOS به محسن یه زنگ بزن EOS o o command_call o contact_name o o contact_command_call
+BOS با مادرم تماس بگیر EOS o o command_call contact_name o o contact_command_call
+BOS زنگ بزن به مامان EOS o contact_name o o command_call o contact_command_call
+BOS با خانه تماس بگیر EOS o o command_call contact_name o o contact_command_call
+BOS به خونه زنگ بزن EOS o o command_call contact_name o o contact_command_call
+BOS به علی بزنگ EOS o command_call contact_name o o contact_command_call
+BOS با علی تماس بگیر EOS o o command_call contact_name o o contact_command_call

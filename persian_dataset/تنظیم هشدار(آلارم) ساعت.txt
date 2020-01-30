@@ -1,0 +1,26 @@
+﻿BOS زنگ ساعتو قطع کن EOS o o command_off o device_alarm o alarm_command_off
+BOS زنگو  ده دیقه بنداز عقب EOS o command_mode o delta_time_B delta_time_I device_alarm o alarm_command_set
+BOS برای ساعت ۳ آلارم تنظیم کن EOS o o command_set device_alarm time_B time_I o o alarm_command_set
+BOS ساعت برای صبح تنظیم کن EOS o o command_set time o device_alarm o alarm_command_set
+BOS برای ساعت سه بعد از ظهر آلارم ست کن EOS o o command_set device_alarm 		??????????????
+BOS یک آلارم برای ساعت دو صبح ست کن EOS o o command_set time_B time_I o o device_alarm o o alarm_command_set
+BOS هشدار را برای  ساعت ۹ تنظیم کن EOS o o command_set time o o o device_alarm o alarm_command_set
+BOS ساعت رو برا ۹  تنظیم کننه EOS o o command_set time o o o o alarm_command_set
+BOS آلارمو ست کن EOS o o command_set device_alarm o alarm_command_set
+BOS آلارم رو روی ساعت 4 بعد از ظهر  تنظیم کن EOS o o command_set					?????????????????????
+BOS آلارم رو روی ساعت شونزده بزار EOS o command_set time o o o device_alarm o alarm_command_set
+BOS ساعتو برا ۷صب کوک کن EOS o o command_set time_B time_I o device_alarm o alarm_command_set
+BOS برایساعت ۵ صبح ساعت تنظیم کن EOS o o command_set device_alarm time_B time_I o o o alarm_command_set
+BOS منو ۲ ساعت دیگه از خواب بیدار کن EOS o o command_set o o o delta_time_B delta_time_I o o alarm_command_set
+BOS ساعت هفت را تنظیم کن EOS o o command_set o time device_alarm o alarm_command_set
+BOS هشدار ساعت برای شنبه 8 صبح تنظیم شه EOS o o command_set time_B time_I time_day o o device_alarm o alarm_command_set
+BOS شنبه باید 8 صبح بیدار شم EOS o o command_set time_B time_I o time_day o alarm_command_set
+BOS زنگ هشدار را برای ساعت ۸ صبح تنظیم کن EOS o o command_set time_B time_I o o o device_alarm o o alarm_command_set
+BOS زنگ هشدارو بذار روی ۸ صبح EOS o time_B time_I o command_set device_alarm o o alarm_command_set
+BOS الارم را برای ساعت ۵ صبح تنظیم کن EOS o o command_set time_B time_I o o o device_alarm o alarm_command_set
+BOS الارم رو رو ۵ صبح ست کن EOS o o command_set time_B time_I o o device_alarm o alarm_command_set
+BOS فردا ساعت 9 می خوام بیدار بشم EOS o o command_set o time o time_day o alarm_command_set
+BOS ساعت 9 دوشنبه بیدارم کن EOS o o command_set time_day time o o alarm_command_set
+BOS ساعت 7 بیدارم کن EOS o o command_set time o o alarm_command_set
+BOS ساعت روی 7 صبح تنظیم شود EOS o o command_set time_B time_I o device_alarm o alarm_command_set
+

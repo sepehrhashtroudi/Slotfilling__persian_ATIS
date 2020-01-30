@@ -1,0 +1,10 @@
+﻿BOS ماکروفر رو برای 3 دقیقه تنظیم کن EOS o o command_on duration_B duration_I o o device_macrowave o macrowave_command_on
+BOS سه دیقه مایکروفرو بزن EOS o command_on device_macrowave duration_B duration_I o macrowave_command_on 
+BOS مایکروفر رو ۶۰ ثانیه روشن کن EOS o o command_on duration_B duration_I o device_macrowave o macrowave_command_on
+BOS مایکروفرو رو ۶۰ ثانیه ست کن EOS o o command_on duration_B duration_I o device_macrowave o macrowave_command_on
+BOS زمان ماکرو فر رو روی دو دیقه و 30 ثانیه بزار EOS o command_on duration_B duration duration duration duration_I o o device_macrowave o o macrowave_command_on
+BOS زمان ماکروفر رو دو دقیقه بیشتر کن EOS o o command_increase  duration_B duration_I o device_macrowave o o macrowave_command_increase
+BOS مایکروفرو برای 3 دقیقه تنظیم کن EOS o o command_on duration_B duration_I o device_macrowave o macrowave_command_on
+BOS لطفا مایکروفر را برای 3 دقیقه تنظیم کنید EOS o o command_on duration_B duration_I o o device_macrowave o o macrowave_command_on
+BOS ماکروفر بزار رو 3 دقیقه EOS o duration_B duration_I o command_on device_macrowave o macrowave_command_on
+BOS ماکروفر رو قطع کن EOS o o command_off o device_macrowave o macrowave_command_off

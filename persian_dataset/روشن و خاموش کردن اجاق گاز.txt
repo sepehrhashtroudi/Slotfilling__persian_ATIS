@@ -1,0 +1,17 @@
+﻿BOS شعله بزرگ اجاق گاز را  روشن کن EOS o o command_on o device_gasburner_B device_gasburner_I o o o gasburner_command_on
+BOS گازو روشن کن EOS o o command_on device_gasburner o gasburner_command_on
+BOS زیر گازو کم کن EOS o o command_decrease device_gasburner o o gasburner_command_decrease
+BOS اجاق رو روشن کن EOS o o command_on o device_gasburner o gasburner_command_on
+BOS گازو خاموش کن کلا EOS o o o command_off device_gasburner o gasburner_command_off
+BOS گاز روشن کن EOS o o command_on device_gasburner o gasburner_command_on
+BOS گاز خاموش کن EOS o o command_off device_gasburner o gasburner_command_off
+BOS اجاق گازو چک کن EOS o o command_chek device_gasburner_B device_gasburner_I o gasburner_command_chek
+BOS آیا اجاق گاز روشنه EOS o command_on device_gasburner_B device_gasburner_I o o gasburner_command_on    ?????
+BOS گازو کامل روشن کن EOS o o command_on o device_gasburner o gasburner_command_on
+BOS گازو ببند EOS o command_off device_gasburner o gasburner_command_off
+BOS شعله گاز را روشن کن EOS o o command_on o device_gasburner o o gasburner_command_on
+BOS کتری رو روشن کن EOS o o command_on o o o gasburner_command_on
+BOS اجاق رو روشن کن EOS o o command_on o device_gasburner o gasburner_command_on
+BOS گازو خاموش کن کلا EOS o o o command_off device_gasburner o gasburner_command_off
+BOS اجاق گاز رو خاموش کن غذا سوخت EOS o o o o command_off o device_gasburner_B device_gasburner_I o gasburner_command_off
+BOS گازو بزار رو کم EOS o command_decrease o o device_gasburner o gasburner_command_decrease

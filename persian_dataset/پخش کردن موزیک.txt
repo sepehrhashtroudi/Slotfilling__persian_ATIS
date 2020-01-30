@@ -1,0 +1,12 @@
+﻿BOS یه آهنگ شاد بزار EOS o command_play o music o o music_command_play
+BOS آهنگو پلی کن EOS o o command_play music o music_command_play
+BOS پلی کن EOS o o command_play o music_command_play
+BOS آهنگ بذار EOS o command_play music o music_command_play
+BOS موزیک بذار EOS o command_play music o music_command_play
+BOS آهنگ بذا EOS o command_play music o music_command_play
+BOS یه موزیک دپ پخش کن EOS o o command_play o music o o music_command_play
+BOS یه موزیک از محسن چاوشی پخش کن EOS o o command_play music_name_B music_name_i o music o o music_command_play
+BOS یه اهنگ از حجت اشرف زاده بزار EOS o command_play music_name_B music_name music_name_i  o music o o music_command_play
+BOS یه اهنگ هیجانی بزار EOS o command_play o music o o music_command_play
+BOS فولدر قدیمیو پلی کن EOS o o command_play o o o music_command_play
+BOS آهنگ بزار EOS o command_play music o music_command_play

@@ -1,0 +1,11 @@
+﻿BOS فیلمو بزن EOS o command_play device_player o player_command_play
+BOS بزن فیلم اجرا شه EOS o o command_play device_player o o player_command_play
+BOS فیلم را به نمایش بگذارید EOS o o command_play o o device_player o player_command_play
+BOS فیلم بذار EOS o command_play device_player o player_command_play
+BOS يه فيلم كمدي مه وسه پخش كن EOS o command_play o o o device_player o o player_command_play
+BOS این فیلم رو پخش کن EOS o o command_play o device_player o o player_command_play
+BOS این فیلم رو بذار EOS o command_play o device_player o o player_command_play
+BOS کلاود اتلس رو پلی کن EOS o o command_play o name_B name_I o player_command_play
+BOS یه فیلم خوب پیشنهاد بده EOS o command_play_B command_play_I o device_player o o player_command_play
+BOS فیلم تایتانیکو بزار EOS o command_play name device_player o player_command_play
+BOS فیلم تایتانیک پخش شود EOS o o command_play name device_player o player_command_play

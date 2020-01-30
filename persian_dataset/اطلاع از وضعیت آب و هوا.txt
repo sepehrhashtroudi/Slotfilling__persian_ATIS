@@ -1,0 +1,19 @@
+﻿BOS هوا چطور است؟ EOS O O cammand_how wether O wether_cammand_how
+BOS هوا سرده EOS O cammand_mode wether O O wether_cammand_how
+BOS آب و هوا چطوره امروز؟ EOS O when cammand_how wether O O O wether_cammand_how
+BOS هوا امروز چطوری هست؟ EOS O O cammand_how when wether O wether_cammand_how
+BOS آیا امروز باران میاد؟ EOS O O cammand_mode when O O wether_cammand_how
+BOS هوا بیرون چطوره ؟! EOS O cammand_how O wether O wether_cammand_how
+BOS آب و هوا چجوره ؟! EOS O cammand_how wether O O O wether_cammand_how
+BOS هوای امروز رو به من بگو EOS O O O O O when wether O wether_cammand_how
+BOS وضعیت هوا رو نشون بده EOS O O O O wether O O wether_cammand_how
+BOS هوا این هفته چطوره؟ EOS O cammand_how when O wether O wether_cammand_how
+BOS هوا تو آلمان الان چند درجه است؟ EOS O O O O when city O wether O wether_cammand_how
+BOS امروز باران میاد؟ EOS O O cammand_mode when O wether_cammand_how
+BOS آب و هوای امروز عصر چگونه خواهد بود EOS O O O cammand_how O when wether O O O wether_cammand_how
+BOS امروز باید چتر ببرم؟ EOS O O cammand_mode O when O wether_cammand_how
+BOS امروز هوا آفتابیه؟ EOS O cammand_mode wether when O wether_cammand_how
+BOS هوا فردا بارونیه؟ EOS O cammand_mode when wether O wether_cammand_how
+BOS فردا بارون میباره؟ EOS O O cammand_mode when O wether_cammand_how
+BOS امروز هوای تهران چطوره EOS O cammand_how city wether O O when O wether_cammand_how
+BOS لطفا مرا از آب و هوای امروز با خبر کن EOS O O O O when wether O O O O O O wether_cammand_how

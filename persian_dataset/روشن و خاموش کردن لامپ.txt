@@ -1,0 +1,16 @@
+﻿BOS چندتا لامپو خاموش کن EOS O O cammand_off device O O lamp_cammand_off
+BOS نصف چراغ ها را خاموش کن EOS O O cammand_off O O device O O lamp_cammand_off
+BOS لطفا لامپ آشپزخانه خاموش شود EOS O O cammand_off loc_kitchen device O O lamp_cammand_off
+BOS لامپ هال روشن شه EOS O O cammand_on loc_living device O lamp_cammand_on
+BOS روشن EOS O cammand_on O lamp_cammand_on
+BOS خاموش EOS O cammand_off O lamp_cammand_off
+BOS لامپو بزن EOS O O device O lamp_cammand_on
+BOS لامپو روشن کنم EOS O O cammand_on device O lamp_cammand_on
+BOS کلید چراغ اتاق را بزنید. EOS O O O loc_room device O O lamp_cammand_on
+BOS برقو روشن کن EOS O O cammand_on O O lamp_cammand_on
+BOS لامپ را روشن کن EOS O O cammand_on O device O lamp_cammand_on
+BOS لامپ رو روشن کن EOS O O cammand_on O device O lamp_cammand_on
+BOS چراغو بزن EOS O O device O lamp_cammand_on
+BOS روشن کن EOS O O cammand_on O lamp_cammand_on
+BOS این جا تاریک شده EOS O cammand_on O O O lamp_cammand_on
+BOS لامپ اضافه خاموش EOS O cammand_off O device O lamp_cammand_off

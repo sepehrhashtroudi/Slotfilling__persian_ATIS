@@ -1,0 +1,18 @@
+﻿BOS لطفا ویدئو پروژکتور را روشن کن EOS O O cammand_on O device O O O projector_command_on
+BOS پروژکتورو خاموش کن EOS O O cammand_off device O projector_command_off
+BOS میشه ویدئوپروژکتورو فعال کنی EOS O O cammand_on device O O projector_command_on
+BOS لطفا پروژکتور را روشن کن EOS O O cammand_on O device O O projector_command_on
+BOS پروژکتورو خاموش کن EOS O O cammand_off device O projector_command_off
+BOS پروژکتورو روشن کن EOS O O cammand_on device O projector_command_on
+BOS پروژکتورو خاموش کن EOS O O cammand_off device O projector_command_off
+BOS لطفا پروژکتور رو روشن کنش EOS O O cammand_on O device O O projector_command_on
+BOS پروژکتورو خاموشش کن EOS O O cammand_off device O projector_command_off
+BOS پروژکتورو بزن EOS O O device O projector_command_on
+BOS پروژکتورو از برق بکش EOS O cammand_off O O device O projector_command_off
+BOS پروژکتورو روشن کنمیشه برام پروژکتورو روشن کنی EOS O O cammand_on device O O O O O projector_command_on
+BOS پروژکتور را خاموش کنید EOS O O cammand_off O device O projector_command_off
+BOS میشه لطف کنی پروژکتورو بزنی EOS O O device O O O O projector_command_on
+BOS پروژکتورو خاموش میکنی EOS O cammand_off device O projector_command_off
+BOS پروژکتور روشن شود EOS O O cammand_on device O projector_command_on
+BOS پروژکتورو روشن کن EOS O O cammand_on device O projector_command_on
+BOS پروژکتور روشن شو. EOS O O cammand_on device O projector_command_on

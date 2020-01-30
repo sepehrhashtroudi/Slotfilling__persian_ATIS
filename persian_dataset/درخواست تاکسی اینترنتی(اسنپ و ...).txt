@@ -1,0 +1,29 @@
+﻿BOS یه اسنپ به مقصد شریعتی سر پل صدر بگیر EOS o o destination_B destination destination destination_I o o taxi_name o o taxi_command
+BOS لطفا يك ماشين مه وسه راهي هكن EOS 									????
+BOS یک اسنپ به مقصد دانشگاه بگیر EOS o o destination o o taxi_name o o taxi_command
+BOS یه اسنپ بگیر برای دانشگاه EOS o destination o o taxi_name o o taxi_command
+BOS یک اسنپ برای من بگیر EOS o o o o taxi_name o o taxi_command
+BOS اسنپ برام بگیر EOS o o o taxi_name o taxi_command
+BOS یک اسنپ برای من بگیرید EOS o o o o destination o o taxi_command
+BOS یه اسنپ بگیر EOS o o taxi_name o o taxi_command
+BOS یه اسنپ برای فرودگاه بگیر EOS o o destination o taxi_name o o taxi_command
+BOS یه تپسی بگیر برا چهارراه ولیعصر EOS o destination_B destination_I o o taxi_name o o taxi_command
+BOS اسنپ برای دانشگاه بگیر EOS o o destination o taxi_name o taxi_command
+BOS برای دانشگاه یک ماشین بکیر EOS o o taxi_name o destination o o taxi_command   ??????
+BOS یه ماشین بگیر از اسنپ EOS o taxi_name o o o o o taxi_command
+BOS اسنپ بگیر برای دانشگاه EOS o destination o o taxi_name o taxi_command
+BOS درخواست اسنپ دارم برای دانشگاه EOS o destination o o taxi_name o o taxi_command
+BOS میشه یه اسنپ بگیری برای خونه EOS o destination o o taxi_name o o o taxi_command
+BOS لطفا یک اسنپ به مقصد خانه بگیر EOS o o destination o o taxi_name o o o taxi_command
+BOS لطفا از منزل به دانشکده یک اسنپ بگیر EOS o o taxi_name o destination o start o o o taxi_command
+BOS می خوام برم دانشگاه یه اسنپ بگیر EOS o o taxi_name o destination o o o taxi_command
+BOS یه تاکسی برام بگیر EOS o o o taxi o o taxi_command					????
+BOS با یک تاکسی تماس بگیر EOS o o o taxi o o o taxi_command				????
+BOS یک تاکسی اینترنتی درخواست بدید EOS o o o o      					????
+BOS بزن اسنپ بیاد EOS o o taxi_name o o taxi_command
+BOS یه کارپینو بگیر به مقصد فرودگاه امام خمینی EOS o destination_B destination destination_I o o o taxi_name o o taxi_command
+BOS یه تپسی بگیر بریم خونه EOS o destination o o taxi_name o o taxi_command
+BOS یه اسنپ به چهارراه ولیعصر EOS o destination_B destination_I o taxi_name o o taxi_command
+BOS میخام برم خونه EOS o destination o o o taxi_command
+BOS اسنپ به شرکت EOS o destination o taxi_name o taxi_command
+BOS اسنپ برای محل کارم بگیر EOS o o destination_B destination_I o taxi_name o taxi_command

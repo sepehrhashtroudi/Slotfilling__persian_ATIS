@@ -1,0 +1,21 @@
+﻿BOS در  پارکینگو میزنی EOS o command_open loc_parking device_door o pdoor_command_open
+BOS در پارکینگ را باز کن EOS o o command_open o loc_parking device_door o pdoor_command_open
+BOS پارکینگ رو ببند EOS o command_close o loc_parking o pdoor_command_close
+BOS آیا پارکینگ بازه EOS o command_open loc_parking o o command_open ???????
+BOS در پارکینگ رو بازش کن EOS o o command_open o loc_parking device_door o pdoor_command_open
+BOS در پارکینگ رو ببند EOS o command_close o loc_parking device_door o pdoor_command_close
+BOS در پارکینگ باز کن EOS o o command_open loc_parking device_door o pdoor_command_open
+BOS در پارکینگ ببند EOS o command_close loc_parking device_door o pdoor_command_close
+BOS در پارکینگو وا کن EOS o o command_open loc_parking device_door o pdoor_command_open
+BOS در پارکینگو باز کنین EOS o o command_open loc_parking device_door o pdoor_command_open
+BOS درب پارکینگ را باز کنید EOS o o command_open o loc_parking device_door o pdoor_command_open
+BOS در پارکینگ را باز کن EOS o o command_open o loc_parking device_door o pdoor_command_open
+BOS در پارکینگ رو بزن EOS o command_open o loc_parking device_door o pdoor_command_open
+BOS درب پارکینگ را ببند EOS o command_close o loc_parking device_door o pdoor_command_close
+BOS در پارکینگو ببند EOS o command_close loc_parking device_door o pdoor_command_close
+BOS در پارکینگو بزن EOS o command_open loc_parking device_door o pdoor_command_open
+BOS باز کن EOS o o command_open o pdoor_command_open
+BOS در پارکینگ رو قفل کن EOS o o lock o loc_parking device_door o pdoor_command_lock
+BOS ریموت پارکینگو بزن EOS  o command_open loc_parking o pdoor_command_open
+BOS پارکینگو ببند EOS o command_close loc_parking o pdoor_command_close
+BOS پارکینگو ببیند EOS o command_close loc_parking o pdoor_command_close

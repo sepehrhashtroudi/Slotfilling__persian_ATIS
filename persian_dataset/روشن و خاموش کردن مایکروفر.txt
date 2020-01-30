@@ -1,0 +1,24 @@
+﻿BOS لطفا ماکروفر رو روشن کنید EOS O O command_on O device O O macrofer_command_on
+BOS ماکروفرو بزن EOS O O device O macrofer_command_on
+BOS مکروفرو  روشن کن EOS O O command_on device O macrofer_command_on
+BOS میشه مایکروویو رو روشن کنی EOS O O command_on O device O O macrofer_command_on
+BOS ماکروفر رو روشن کن EOS O command_on O device O macrofer_command_on
+BOS ماکروفر رو خاموش کن EOS O command_off O device O macrofer_command_off
+BOS مایکروفر را روشن کنید EOS O O command_on O device O macrofer_command_on
+BOS مایکروفر روشن کنین EOS O O command_on device O macrofer_command_on
+BOS مایکروفر را روشن کن EOS O O command_on O device O macrofer_command_on
+BOS مایکروویو را با توان ۹۰۰ وات برای ۳ دقیقه روشن کنید EOS O O command_on duration_B duration_I O O command_power O O O device O macrofer_command_on
+BOS مایکروویو رو برای سه دقیقه بزن EOS O O duration_B duration_I O O device O macrofer_command_on
+BOS مایکروفرو 3 دقیقه روشن کن EOS O command_on duration_B duration_I device O macrofer_command_on
+BOS مایکروفر را روشن کن EOS O O command_on O device O macrofer_command_on 
+BOS غذا رو داغ کن EOS O O command_on O O O macrofer_command_on
+BOS ماکروفر رو روشن کن EOS O O command_on O device O macrofer_command_on
+BOS خاموش کن اون ماکروفر رو EOS O device O O command_off O macrofer_command_off
+BOS ماکروفرو بزار رو ۹۰۰ وات EOS O O command_power O O device O macrofer_command_on
+BOS ماکروفر و قطع کن EOS O command_off O device O macrofer_command_off
+BOS اگر میتونی ماکروفر رو روشن کن EOS O O command_on O device O O macrofer_command_on
+BOS کافیه مایکروفرو خاموش کن EOS O O command_off device O O macrofer_command_off
+BOS مایکروویو رو خاموش کن EOS O command_off O device O macrofer_command_off
+BOS مایکروویو را بکش EOS O O O device O macrofer_command_off
+BOS ماکروفرو یک دقیقه بزار EOS O O duration_B duration_I device O macrofer_command_on
+BOS ماکروفر برای یک دقیقه روشن شود EOS O O command_on duration_B duration_I O device O macrofer_command_on

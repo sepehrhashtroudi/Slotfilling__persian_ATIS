@@ -1,0 +1,21 @@
+﻿BOS درو باز کن لطفا EOS o o o command_open device_door o door_command_open
+BOS در خونه رو ببند EOS o command_close o o?? device_door o door_command_close
+BOS درو قفل کن EOS o o command_lock device_door o door_command_lock
+BOS درب خانه را قفل کن EOS o o command_lock o o?? device_door o door_command_lock
+BOS درو بزن EOS o command_open device_door o door_command_open
+BOS وضعیت درو چک کن EOS o o command_chek device_door o o door_command_chek
+BOS در رو باز کن EOS o o command_open o device_door o door_command_open
+BOS در رو ببند EOS o command_close o device_door o door_command_close
+BOS درو باز کن EOS o o command_open device_door o door_command_open
+BOS در رو قفل کن EOS o o command_lock o device_door o door_command_lock
+BOS درو وا کن EOS o o command_open device_door o door_command_open
+BOS درو ببند EOS o command_close device_door o door_command_close
+BOS در را باز کن EOS o o command_open o device_door o door_command_open
+BOS در خانه را ببند EOS o command_close o o?? device_door o door_command_close
+BOS درب خانه را ببند EOS o command_close o o?? device_door o door_command_close
+BOS میشه آیفونو بزنی EOS o command_open device_door o o door_command_open
+BOS میشه درو بزنی EOS o command_open device_door o o door_command_open
+BOS باز کن EOS o o command_open o door_command_open                      ???????
+BOS در خونه رو قفل کن EOS o o command_lock o o?? device_door o door_command_lock
+BOS درو ببند EOS o command_close device_door o door_command_close
+BOS در بسته شود EOS o o command_close device_door o door_command_close

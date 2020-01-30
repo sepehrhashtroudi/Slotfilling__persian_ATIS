@@ -1,0 +1,19 @@
+﻿BOS میشه آباژور رو روشن کنی EOS o o command_on o device_shade o o shade_command_on
+BOS آباژورو خاموش کن EOS o o command_off device_shade o shade_command_off
+BOS نور آباژورو کم کن EOS o o command_decrease device_shade o o shade_command_decrease
+BOS نور آباژور بیشتر شه EOS o o command_increase device_shade o o shade_command_increase
+BOS نور آباژور کنار تخت رو کم کن EOS o o command_decrease o o o device_shade o o shade_command_decrease
+BOS اباژورو میزنی روشن شه EOS o o command_on o device_shade o shade_command_on
+BOS اباژورو خاموشش کن EOS o o command_off device_shade o shade_command_off
+BOS اباژور را خاموش کن EOS o o command_off o device_shade o shade_command_off
+BOS اباژورو بخاموش EOS o command_off device_shade o shade_command_off
+BOS نور آباژورو کم کن EOS o o command_decrease device_shade o o shade_command_decrease
+BOS آباژور را روشن کن EOS o o command_on o device_shade o shade_command_on
+BOS آباژورو روشن کن EOS o o command_on device_shade o shade_command_on
+BOS آباژور خاموش شه EOS o o command_off device_shade o shade_command_off
+BOS آباژور روشن شه EOS o o command_on device_shade o shade_command_on
+BOS اباژور را روشن کنید EOS o o command_on o device_shade o shade_command_on
+BOS اباژور رو روشن کن EOS o o command_on o device_shade o shade_command_on
+BOS آباژور رو بزن EOS o command_on o device_shade o shade_command_on
+BOS آباژورو بزن EOS o command_on device_shade o shade_command_on
+

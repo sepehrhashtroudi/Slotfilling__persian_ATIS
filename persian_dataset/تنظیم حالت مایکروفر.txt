@@ -1,0 +1,7 @@
+﻿BOS مایکروفرو بزار رو برنامه یخ زدایی EOS o command_mode_B command_mode_I o o command_set device_macrowave o macrowave_command_mode
+BOS مایکروفر در حالت گرم کردن قرار بدهید EOS o o command_set command_mode_B command_mode_I o o device_macrowave o macrowave_command_mode
+BOS حالت گرم کردن مایکروفر رو بزن EOS o command_set o device_macrowave command_mode_B command_mode_I o o macrowave_command_mode
+BOS ماکروفر رو بزار روی دم کردن قهوه EOS o o command_mode_B command_mode_I o command_set o device_macrowave o macrowave_command_mode
+BOS ماکروفر رو بزار رو حالت پخت پیتزا EOS o o command_mode o p command_set o device_macrowave o macrowave_command_mode
+BOS ماکروفرو بزار رو یخ زدایی EOS o command_mode_B command_mode_I o command_set device_macrowave o macrowave_command_mode
+BOS یخ زدایی روشن شود EOS o o command_set command_mode_B command_mode_I o macrowave_command_mode

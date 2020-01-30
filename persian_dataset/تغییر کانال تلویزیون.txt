@@ -1,0 +1,21 @@
+﻿BOS بزن کانال 5 EOS o channel_num o command_change_channel o tv_command_change
+BOS کانال تلوزیون رو به 6 تغییر بده EOS o o command_change_channel channel_num o o device_tv o o tv_command_change
+BOS بزن کانال سه EOS o channel_num o command_change_channel o tv_command_change
+BOS کانالو عوض کن EOS o o command_change_channel o o tv_command_change
+BOS بزار شبکه دو EOS o channel_num o command_change_channel o tv_command_change
+BOS میشه کانالو عوض کنی EOS o o command_change_channel o o o tv_command_change
+BOS کانال رو بده بالا EOS o command_change_channel o o o o tv_command_change
+BOS کانال رو عوض کن EOS o o command_change_channel o o o tv_command_change
+BOS بزن شبکه ورزش EOS o channel_num o command_change_channel o tv_command_change
+BOS برو کانال بعدی EOS o channel_num o command_change_channel o tv_command_change
+BOS بزن کانال ۳ EOS o channel_num o command_change_channel o tv_command_change
+BOS کانالو عوض کن EOS o o command_change_channel o o tv_command_change
+BOS کانال تلویزیون را به 1 تغییر بده EOS o o command_change_channel channel_numo o device_tv o o tv_command_change
+BOS بزن کانال 1 EOS o channel_num o command_change_channel o tv_command_change
+BOS بزن یه جای دیگه EOS o o o o command_change_channel o tv_command_change
+BOS کانال تلوزیون رو عوض کن EOS o o command_change_channel o device_tv o o tv_command_change
+BOS کانال تلوزیون رو تغییر بده EOS o o command_change_channel o device_tv o o tv_command_change
+BOS عوضش کن EOS o o command_change_channel o tv_command_change
+BOS بزار 3 EOS o channel_num command_change_channel o tv_command_change
+BOS کانال 3 چی داره EOS o command_change_channel o channel_num o o tv_command_change
+BOS کانال رو عوض کن EOS o o command_change_channel o o o tv_command_change

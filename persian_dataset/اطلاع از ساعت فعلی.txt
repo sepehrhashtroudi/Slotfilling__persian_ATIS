@@ -1,0 +1,4 @@
+BOS الان ساعت چنده EOS o command_when time o o time_command
+BOS ساعت چنده EOS o command_when time o time_command
+BOS بهم ساعت رو بگو EOS o command_when o time o o time_command
+BOS بگو ببینم ساعت چنده EOS o command_when time o o o time_command

@@ -1,0 +1,19 @@
+﻿BOS پرده رو بکش EOS o command_open o device_curtain o curtain_command_open
+BOS لطفا پرده رو بکش EOS o command_open o device_curtain o o curtain_command_open
+BOS پرده رو بده بالا EOS o command_close o o device_curtain o curtain_command_close
+BOS یه ذره پرده رو میکشی بالا EOS o command_close o o device_curtain command_mode o o curtain_command_close
+BOS پرده رو بزن کنار EOS o command_close_B command_close_I o device_curtain o curtain_command_close
+BOS پرده ها رو بزن کنار EOS o command_close_B command_close_I o o device_curtain o curtain_command_close
+BOS پرده رو بالا بکش EOS o o command_close o device_curtain o curtain_command_close
+BOS پرده رو بزن بالا EOS o command_close o o device_curtain o curtain_command_close
+BOS پرده رو کامل بکش کنار EOS o command_close_B command_close_I command_mode o device_curtain o curtain_command_close
+BOS کرکره ها رو بکش پایین EOS o command_open o o o device_curtain o curtain_command_open
+BOS نور EOS o o o curtain_command_close
+BOS باز شو EOS o o command_open o curtain_command_open
+BOS پرده رو بکش EOS o command_open o device_curtain o curtain_command_open
+BOS پرده را بکشید EOS o command_open o device_curtain o curtain_command_open
+BOS پرده های اتاق پذیرایی رو بده بالا EOS o command_close o o loc_parlor o o device_curtain o  curtain_command_close
+BOS پرده های اتاق خواب رو بده بالا EOS o command_close o o loc_room_B loc_room_I o device_curtain o curtain_command_close
+BOS پرده رو نصفه بده پایین EOS o command_open o command_mode o device_curtain o curtain_command_open
+BOS نورو کم کن EOS o o 
+BOS پرده رو تا ته بکش EOS o command_open command_mode o o device_curtain o curtain_command_open
