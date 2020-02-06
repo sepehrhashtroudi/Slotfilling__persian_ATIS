@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+# coding=utf-8
+# @author: cer
 """
 This script applies to IOB2 or IOBES tagging scheme.
 If you are using a different scheme, please convert to IOB2 or IOBES.

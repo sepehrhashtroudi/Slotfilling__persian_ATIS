@@ -1,0 +1,20 @@
+BOS کور کن لامپ ها رو EOS	O O O device O command_off O lamp_command_off
+BOS آیا پارکینگ بازه EOS o command_open loc o o command_open ask_status
+BOS این جا تاریک شده EOS	O cammand_on O O O O lamp_cammand_on
+BOS وضعیت درو چک کن EOS	O O command_chek device_door O O door_command_chek
+BOS نور EOS	O O O curtain_command_close
+BOS باز شو EOS	O O command_open O curtain_command_open
+BOS زیادش کن EOS	O O command_increase O split_command_temp
+BOS سردتر EOS	O command_decrease O split_command_temp
+BOS صدا زیاده EOS	O command_increase volume O tv_volume_command
+BOS کانال رو بده بالا EOS	O command_change_channel O O O O tv_command_change
+BOS بزن یه جای دیگه EOS	O O O O command_change_channel O tv_command_change
+BOS کانال 3 چی داره EOS	O command_change_channel O channel_num O O tv_command_change
+BOS عوضش کن EOS	O O command_change_channel O tv_command_change
+BOS کولرو کمش کن EOS	O O command_decrease device_cooler O cooler_command_decrease
+BOS باد کولر کمه EOS	O command_decrease device_cooler O O cooler_command_increase ??
+BOS زنگو  ده دیقه بنداز عقب EOS o command_mode o delta_time_B delta_time_I device_alarm o alarm_command_set
+BOS هود رو سه دقیقه رو دور تند روشن بزار EOS O command_on command_increase_speed O duration_B duration_I O device_hood O hood_command_on
+BOS درجه ی هود رو بزار رو یک EOS O command_mode O O O device_hood O O hood_command_on
+BOS غذا سوخت EOS O O O O hood_command_on
+BOS تلویزیونو صدادار کن EOS	O O command_increase device_tv O tv_volume_command

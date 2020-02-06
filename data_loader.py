@@ -31,6 +31,18 @@ def data_pipeline(data, length=50):
     seq_in, seq_out, intent = list(zip(*data))
     return seq_in, seq_out, intent
 
+def data_pipeline2(data, length=50):
+    data = [t[:-1] for t in data]  # remove'\n'
+
+    # One line of data like this：'BOS i want to fly from baltimore to dallas round trip EOS
+    # \t O O O O O O B-fromloc.city_name O B-toloc.city_name B-round_trip I-round_trip atis_flight'
+    # Segmented into such a [original sentence word, annotated sequence，intent]
+    data = [[t.split("\t")[0].split(" "), t.split("\t")[1].split(" ")[:-1], t.split("\t")[1].split(" ")[-1]] for t in
+            data]
+    data = [[t[0][1:-1], t[1][1:-1], t[2]] for t in data]  # Remove BOS and EOS, and remove the corresponding label in the corresponding label sequence
+    seq_in, seq_out, intent = list(zip(*data))
+    return seq_in, seq_out, intent
+
 def new_data_pipeline(data, length=50):
     data = [t[:-1] for t in data]  # remove'\n'
 

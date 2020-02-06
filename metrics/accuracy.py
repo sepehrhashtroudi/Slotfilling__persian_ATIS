@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+# coding=utf-8
+# @author: cer
 import numpy
 import random
 import os
@@ -30,11 +33,11 @@ def conlleval(p, g, w, filename):
             out += w + ' ' + wl + ' ' + wp + '\n'
         out += 'EOS O O\n\n'
 
-    f = open(filename,'w')
+    f = open(filename,'w', encoding='utf-8')
     f.writelines(out)
     f.close()
 
-    f = open(filename, 'r')
+    f = open(filename, 'r', encoding='utf-8')
     return evaluate_conll_file(f)
 
 # def get_perf(filename):

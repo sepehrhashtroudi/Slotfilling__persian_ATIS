@@ -1,16 +1,201 @@
-BOS چندتا لامپو خاموش کن EOS O O cammand_off device O O lamp_cammand_off
-BOS نصف چراغ ها را خاموش کن EOS O O cammand_off O O device O O lamp_cammand_off
-BOS لطفا لامپ آشپزخانه خاموش شود EOS O O cammand_off loc_kitchen device O O lamp_cammand_off
-BOS لامپ هال روشن شه EOS O O cammand_on loc_living device O lamp_cammand_on
-BOS روشن EOS O cammand_on O lamp_cammand_on
-BOS خاموش EOS O cammand_off O lamp_cammand_off
-BOS لامپو بزن EOS O O device O lamp_cammand_on
-BOS لامپو روشن کنم EOS O O cammand_on device O lamp_cammand_on
-BOS کلید چراغ اتاق را بزنید. EOS O O O loc_room device O O lamp_cammand_on
-BOS برقو روشن کن EOS O O cammand_on O O lamp_cammand_on
-BOS لامپ را روشن کن EOS O O cammand_on O device O lamp_cammand_on
-BOS لامپ رو روشن کن EOS O O cammand_on O device O lamp_cammand_on
-BOS چراغو بزن EOS O O device O lamp_cammand_on
-BOS روشن کن EOS O O cammand_on O lamp_cammand_on
-BOS این جا تاریک شده EOS O cammand_on O O O lamp_cammand_on
-BOS لامپ اضافه خاموش EOS O cammand_off O device O lamp_cammand_off
+BOS نور آباژور بیشتر شه EOS	O O command_increase device_shade O O shade_command_increase
+BOS درو ببند EOS	O command_close device_door O door_command_close
+BOS سرده کولرو خاموش کن EOS	O O command_off device_cooler O O cooler_command
+BOS لطفا کولر روشن شود EOS	O O command_on device_cooler O O cooler_command
+BOS آباژور را روشن کنید EOS	O O command_on O device_shade O shade_command_on
+BOS آباژورو روشن کن EOS	O O command_on device_shade O shade_command_on
+BOS هود رو یک درجه بیشتر کن EOS	O O command_increase O O O device_hood O hood_command_on
+BOS تلویزیون را خاموش کن EOS	O O command_off O device_tv O tv_command_off
+BOS هودو روشن کن دود بره بیرون لطفا EOS	O O O O O O command_on device_hood O hood_command_on
+BOS کولرو بزار کند EOS	O command_decrease_speed O device_cooler O cooler_command_decrease
+BOS کانالو عوض کن EOS	O O O command_change_channel O tv_command_change
+BOS صدای تلویزیون را زیاد کن EOS	O O command_increase O device_tv volume O tv_volume_command
+BOS پروژکتور خاموشش کن EOS	O O command_off device_projector O projector_command_off
+BOS پرده رو تا ته بکش EOS	O command_open O O O device_curtain O curtain_command_open
+BOS هود رو روشن کن EOS	O O command_on O device_hood O hood_command_on
+BOS هودو میزنی EOS	O command_off device_hood O hood_command_on
+BOS تلویزیون روشن کن EOS	O O command_on device_tv O tv_command_on
+BOS صدای تلوزیون رو زیاد کن EOS	O O command_increase O device_tv volume O tv_volume_command
+BOS پرده رو کامل بکش کنار EOS	O command_open O O O device_curtain O curtain_command_close
+BOS پرده رو بزن کنار EOS	O command_open O O device_curtain O curtain_command_close
+BOS کانالو عوض کن EOS	O O O command_change_channel O tv_command_change
+BOS پرده رو بکش EOS	O command_open O device_curtain O curtain_command_open
+BOS کمش کن EOS	O O command_decrease O tv_volume_command
+BOS بزن کانال سه EOS	O channel_num command_change_channel O O tv_command_change
+BOS بزار شبکه دو EOS	O channel_num command_change_channel O O tv_command_change
+BOS هودو خاموش کن EOS	O O command_off device_hood O hood_command_off
+BOS هوا گرمه اتاق خنک کن EOS	O O command_decrease loc O device_split_B O split_command_temp
+BOS در پارکینگ رو ببند EOS	O command_close O loc device_pdoor O pdoor_command_close
+BOS دور کولر را زیاد کن EOS	O O command_increase_speed O device_cooler O O cooler_command_increase
+BOS پروژکتور روشن شو EOS	O O command_on device_projector O projector_command_on
+BOS هود را روشن کن EOS	O O command_on O device_hood O hood_command_on
+BOS خاموش EOS	O command_off O lamp_command_off
+BOS در را باز کن EOS	O O command_open O device_door O door_command_open
+BOS سرعت کولرو کمش کن EOS	O O command_decrease device_cooler O O cooler_command_decrease
+BOS هود را روشن کن EOS	O O command_on O device_hood O hood_command_on
+BOS صدای تلویزیونو باز کن EOS	O O command_increase device_tv volume O tv_volume_command
+BOS پرده رو بکش EOS	O command_open O device_curtain O curtain_command_open
+BOS نور آباژور کنار تخت رو کم کن EOS	O O command_decrease O O O device_shade O O shade_command_decrease
+BOS کانال تلویزیون را به 1 تغییر بده EOS	O O O channel_num O O device_tv command_change_channel O tv_command_change
+BOS اون کولر لعنتی رو روشن کن EOS	O O command_on O O device_cooler O O cooler_command
+BOS آباژورو بزن EOS	O command_on device_shade O shade_command_on
+BOS در پارکینگ ببند EOS	O command_close loc device_pdoor O pdoor_command_close
+BOS چراغو بزن EOS	O command_on device_lamp O lamp_command_on
+BOS در پارکینگ را باز کن EOS	O O command_open O loc device_pdoor O pdoor_command_open
+BOS در پارکینگ رو بازش کن EOS	O O command_open O loc device_pdoor O pdoor_command_open
+BOS ریموت پارکینگو بزن EOS	O command_open loc O O pdoor_command_open
+BOS هود روشن EOS	O command_on device_hood O hood_command_on
+BOS لامپ ها رو خاموش کن EOS	O O command_off O O device_lamp O lamp_command_off
+BOS هوای اتاق دو درجه رو سردتر کن EOS	O O command_decrease O O delta_temp loc_room O O split_command_temp
+BOS تلویزیونو باز کن EOS	O O command_on device_tv O tv_command_on
+BOS صداشو بلند کن EOS	O O command_increase volume O tv_volume_command
+BOS در رو ببند EOS	O command_close O device_door O door_command_close
+BOS صداشو کم‌ کن EOS	O O command_decrease volume O tv_volume_command
+BOS صدای تلویزیون رو زیاد کن EOS	O O command_increase O device_tv volume O tv_volume_command
+BOS هودو بزن دور تند EOS	O command_increase O O device_hood O hood_command_on
+BOS کولر را روشن کن EOS	O O command_on O device_cooler O cooler_command
+BOS پرده را بکشید EOS	O command_open O device_curtain O curtain_command_open
+BOS در پارکینگ رو قفل کن EOS	O O command_close O loc device_pdoor O pdoor_command_lock
+BOS هود رو خاموش کن EOS	O O command_off O device_hood O hood_command_off
+BOS لطفا پروژکتور را روشن کن EOS	O O command_on O device_projector O O projector_command_on
+BOS پرده رو نصفه بده پایین EOS	O command_close O O O device_curtain O curtain_command_open
+BOS هودو بزن دور تند EOS	O command_increase O O device_hood O hood_command_on
+BOS در پارکینگ را باز کن EOS	O O command_open O loc device_pdoor O pdoor_command_open
+BOS هود را بزن EOS	O command_on O device_hood O hood_command_on
+BOS لطفا تلویزیون رو روشن کن EOS	O O command_on O device_tv O O tv_command_on
+BOS تلویزیون را خاموش بفرمایید EOS	O O command_off O device_tv O tv_command_off
+BOS آباژور رو خاموش کن EOS	O O command_off O device_shade O shade_command_off
+BOS چندتا لامپو خاموش کن EOS	O O command_off device_lamp O O lamp_command_off
+BOS لطفا لامپ آشپزخانه خاموش شود EOS	O O command_off loc device_lamp O O lamp_command_off
+BOS پرده های اتاق خواب رو بده بالا EOS	O command_open O O loc_room_B loc_room_I O device_curtain O curtain_command_close
+BOS در خونه رو ببند EOS	O command_close O loc device_door O door_command_close
+BOS تلویزیونو میوت کن EOS	O O command_off device_tv O tv_volume_command
+BOS هود را خاموش کنید EOS	O O command_off O device_hood O hood_command_off
+BOS پروژکتور خاموش کن EOS	O O command_off device_projector O projector_command_off
+BOS کولر رو دور تند باشه EOS	O O command_increase_speed O O device_cooler O cooler_command_increase
+BOS دمای کولرو کم کن EOS	O O command_decrease device_split_I device_split_B O split_command_temp
+BOS هوا خیلی سرده دما رو ببر بالا EOS	O command_increase O O device_split_B O O O O split_command_temp
+BOS کولرو بزن رو دور تند EOS	O command_increase_speed O O O device_cooler O cooler_command_increase
+BOS صدای تلویزیونو ببند EOS	O command_off device_tv volume O tv_volume_command
+BOS در پارکینگ رو بزن EOS	O command_open O loc device_pdoor O pdoor_command_open
+BOS باز کن EOS	O O command_open O door_command_open
+BOS پروژکتورو خاموش میکنی EOS	O O command_off device_projector O projector_command_off
+BOS آباژور خاموش EOS	O command_off device_shade O shade_command_off
+BOS لامپ رو روشن کن EOS	O O command_on O device_lamp O lamp_command_on
+BOS هود رو خاموش کن EOS	O O command_off O device_hood O hood_command_off
+BOS تلویزیون را روشن کن EOS	O O command_on O device_tv O tv_command_on
+BOS پارکینگ رو ببند EOS	O command_close O loc O pdoor_command_close
+BOS لطفا پروژکتورو خاموش کن EOS	O O command_off device_projector O O projector_command_off
+BOS روشن EOS	O command_on O lamp_command_on
+BOS کانال رو عوض کن EOS	O O O O command_change_channel O tv_command_change
+BOS در پارکینگو وا کن EOS	O O command_open loc device_pdoor O pdoor_command_open
+BOS آباژور روشن شه EOS	O O command_on device_shade O shade_command_on
+BOS کولر رو بزن رو تند EOS	O command_increase_speed O O O device_cooler O cooler_command_increase
+BOS آباژورو میزنی روشن شه EOS	O O command_on O device_shade O shade_command_on
+BOS در خونه رو قفل کن EOS	O O command_close O loc device_door O door_command_lock
+BOS نور آباژورو کم کن EOS	O O command_decrease device_shade O O shade_command_decrease
+BOS بزن کانال 1 EOS	O channel_num command_change_channel O O tv_command_change
+BOS هودو بزن EOS	O command_on device_hood O hood_command_on
+BOS هود آشپزخانه را روشن کن EOS	O O command_on O loc device_hood O hood_command_on
+BOS پرده ها رو بزن کنار EOS	O command_open O O O device_curtain O curtain_command_close
+BOS تلویزیون رو خاموش کن EOS	O O command_off O device_tv O tv_command_off
+BOS در بسته شود EOS	O O command_close device_door O door_command_close
+BOS پارکینگو ببیند EOS	O command_close loc O pdoor_command_close
+BOS هواکشو روشن کن EOS	O O command_on device_hood O hood_command_on
+BOS باز کن EOS	O O command_open O pdoor_command_open
+BOS بزن شبکه ورزش EOS	O channel_num command_change_channel O O tv_command_change
+BOS میشه ویدئو پروژکتورو فعال کنی EOS	O O command_on device_projector O O O projector_command_on
+BOS چراغو روشن کن EOS	O O command_on device_lamp O lamp_command_on
+BOS کولرو خاموش کن لطفا EOS	O O O command_off device_cooler O cooler_command
+BOS تلویزیونو خاموش کن EOS	O O command_off device_tv O tv_command_off
+BOS دما رو دو درجه بیشتر کن EOS	O O command_increase O delta_temp O device_split_B O split_command_temp
+BOS در پارکینگو بزن EOS	O command_open loc device_pdoor O pdoor_command_open
+BOS کولرو روشن میکنی EOS	O O command_on device_cooler O cooler_command
+BOS درو قفل کن EOS	O O command_close device_door O door_command_lock
+BOS هوای آشپزخونه سردتر باشه بهتره EOS	O O O command_decrease loc O O split_command_temp
+BOS تلویزیون باز کن EOS	O O command_on device_tv O tv_command_on
+BOS پروژکتورو روشن کنمیشه برام پروژکتورو روشن کنی EOS	O O command_on device_projector O O O O O projector_command_on
+BOS پارکینگو ببند EOS	O command_close loc O pdoor_command_close
+BOS آباژور خاموش شه EOS	O O command_off device_shade O shade_command_off
+BOS کولر رو بذار رو دور تند EOS	O command_increase_speed O O O O device_cooler O cooler_command_increase
+BOS لامپ هال روشن شه EOS	O O command_on loc device_lamp O lamp_command_on
+BOS صدای تلویزیونو کم کن EOS	O O command_decrease device_tv volume O tv_volume_command
+BOS در رو قفل کن EOS	O O command_close O device_door O door_command_lock
+BOS میشه آباژور رو روشن کنی EOS	O O command_on O device_shade O O shade_command_on
+BOS هود رو برن EOS	O O O device_hood O hood_command_on
+BOS تلویزیون را روشن کنید EOS	O O command_on O device_tv O tv_command_on
+BOS روشن کن هود رو EOS	O O device_hood O command_on O hood_command_on
+BOS درو بزن EOS	O command_open device_door O door_command_open
+BOS میشه لطف کنی پروژکتورو بزنی EOS	O O device_projector O O O O projector_command_on
+BOS پرده های اتاق پذیرایی رو بده بالا EOS	O command_open O O loc O O device_curtain O curtain_command_close
+BOS درب پارکینگ را باز کنید EOS	O O command_open O loc device_pdoor O pdoor_command_open
+BOS کولر خاموش کن EOS	O O command_off device_cooler O cooler_command
+BOS لامپو روشن کنم EOS	O O command_on device_lamp O lamp_command_on
+BOS سرعت باد کولر رو ببر بالا EOS	O command_increase_speed O O device_cooler O O O cooler_command_increase
+BOS صدای تلویزیونو کمش کن EOS	O O command_decrease device_tv volume O tv_volume_command
+BOS دما کولرو کم کن EOS	O O command_decrease device_split_I device_split_B O split_command_temp
+BOS دما اسپلیتو رو 20 درجه بزار EOS	O command_set O temp_value O device_split_I device_split_B O split_command_temp
+BOS هود روشن کن EOS	O O command_on device_hood O hood_command_on
+BOS لطفا هود رو بزن EOS	O O O device_hood O O hood_command_on
+BOS اسپلیتو خنک تر کن EOS	O O O command_decrease device_split_B O split_command_temp
+BOS کلید چراغ اتاق را بزنید EOS	O O O loc device_lamp O O lamp_command_on
+BOS روشن کن EOS	O O command_on O lamp_command_on
+BOS میشه آیفونو بزنی EOS	O command_open device_door O O door_command_open
+BOS کولرو بزن EOS	O command_on device_cooler O cooler_command
+BOS بزار 3 EOS	O channel_num command_change_channel O tv_command_change
+BOS لامپ های پذیرایی را خاموش کن EOS	O O command_off O loc O device_lamp O lamp_command_off
+BOS پروژکتورو روشن کن EOS	O O command_on device_projector O projector_command_on
+BOS پرده رو بزن بالا EOS	O command_open O O device_curtain O curtain_command_close
+BOS هود روشن شه EOS	O O command_on device_hood O hood_command_on
+BOS آباژورو خاموش کن EOS	O O command_off device_shade O shade_command_off
+BOS کولر را خاموش کن EOS	O O command_off O device_cooler O cooler_command
+BOS هود رو زیاد کن EOS	O O command_increase O device_hood O hood_command_on
+BOS درو ببند EOS	O command_close device_door O door_command_close
+BOS درو وا کن EOS	O O command_open device_door O door_command_open
+BOS صدارو زیاد کن EOS	O O command_increase volume O tv_volume_command
+BOS در رو باز کن EOS	O O command_open O device_door O door_command_open
+BOS کولرو قطعش کن EOS	O O command_off device_cooler O cooler_command
+BOS سرعت کولر زیاد کن EOS	O O command_increase_speed device_cooler O O cooler_command_increase
+BOS هود رو زیاد کن EOS	O O command_increase O device_hood O hood_command_on
+BOS میشه لطف کنی تلویزیونو روشن کنی EOS	O O command_on device_tv O O O O tv_command_on
+BOS هودو بزن دود بره بیرون EOS	O O O O command_off device_hood O hood_command_on
+BOS کولر رو روشن کن EOS	O O command_on O device_cooler O cooler_command
+BOS هودو روشن کن EOS	O O command_on device_hood O hood_command_on
+BOS کولرو بزن رو تند EOS	O command_increase_speed O O device_cooler O cooler_command_increase
+BOS درب خانه را ببند EOS	O command_close O loc device_door O door_command_close
+BOS درب خانه را قفل کن EOS	O O command_close O loc device_door O door_command_lock
+BOS اسپلیتو بزار رو 20 درجه EOS	O O temp_value O command_set device_split_B O split_command_temp
+BOS لامپو بزن EOS	O command_on device_lamp O lamp_command_on
+BOS در خانه را ببند EOS	O command_close O loc device_door O door_command_close
+BOS کولر رو خاموش کن EOS	O O command_off O device_cooler O cooler_command
+BOS پروژکتورو از برق بکش EOS	O command_off O O device_projector O projector_command_off
+BOS روشن کن هود رو EOS	O O device_hood O command_on O hood_command_on
+BOS ببند تلویزیون رو EOS	O O device_tv command_off O tv_command_off
+BOS تلویزیون خاموش کن EOS	O O command_off device_tv O tv_command_off
+BOS کانال تلوزیون رو عوض کن EOS	O O O O device_tv command_change_channel O tv_command_change
+BOS درب پارکینگ را ببند EOS	O command_close O loc device_pdoor O pdoor_command_close
+BOS لطفا پروژکتور رو روشن کنش EOS	O O command_on O device_projector O O projector_command_on
+BOS هود رو روشن کنین EOS	O O command_on O device_hood O hood_command_on
+BOS نصف چراغ ها را خاموش کن EOS	O O command_off O O device_lamp O O lamp_command_off
+BOS درو باز کن EOS	O O command_open device_door O door_command_open
+BOS آباژور رو بزن EOS	O command_on O device_shade O shade_command_on
+BOS کانال تلوزیون رو تغییر بده EOS	O O O O device_tv command_change_channel O tv_command_change
+BOS لطفا ویدئو پروژکتور را روشن کن EOS	O O command_on O device_projector O O O projector_command_on
+BOS صداشو کم کن EOS	O O command_decrease volume O tv_volume_command
+BOS صداشو زیاد کن EOS	O O command_increase volume O tv_volume_command
+BOS بزن کانال 5 EOS	O channel_num command_change_channel O O tv_command_change
+BOS دمای اسپلیت را روی 20 درجه تنظیم کن EOS	O O command_set O temp_value O O device_split_I device_split_B O split_command_temp
+BOS کولرو بزن EOS	O command_on device_cooler O cooler_command
+BOS کرکره ها رو بکش پایین EOS	O command_close O O O device_curtain O curtain_command_open
+BOS کولرو خاموش کن EOS	O O command_off device_cooler O cooler_command
+BOS کولر رو فعال کن EOS	O O command_on O device_cooler O cooler_command
+BOS میشه کانالو عوض کنی EOS	O O O command_change_channel O O tv_command_change
+BOS هود رو خاموش کن سریع تر EOS	O O O O command_off O device_hood O hood_command_off
+BOS لامپ را روشن کنید EOS	O O command_on O device_lamp O lamp_command_on
+BOS روشن کن تلویزیون رو EOS	O O device_tv O command_on O tv_command_on
+BOS پرده رو بالا بکش EOS	O O command_open O device_curtain O curtain_command_close
+BOS صدای تلویزیونو زیاد کن EOS	O O command_increase device_tv volume O tv_volume_command
+BOS لامپ اضافه خاموش EOS	O command_off O device_lamp O lamp_command_off
+BOS دما اسپلیت رو زیادش کن EOS	O O command_increase O device_split_B O O split_command_temp
+BOS سرعت کولر را در دور تند قراره بده EOS	O O O command_increase_speed O O O device_cooler O O cooler_command_increase
+BOS صدا تلویزیون رو زیاد کن EOS	O O command_increase O device_tv volume O tv_volume_command
