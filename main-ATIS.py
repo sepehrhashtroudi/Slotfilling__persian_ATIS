@@ -20,27 +20,27 @@ from keras.utils import plot_model
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 
-# train_data = io.open("dataset/atis-2.train.w-intent.iob", mode="r", encoding="utf-8").readlines()
-# test_data = io.open("dataset/atis-2.dev.w-intent.iob", mode="r", encoding="utf-8").readlines()
+train_data = io.open("dataset/atis-2.train.w-intent.iob", mode="r", encoding="utf-8").readlines()
+test_data = io.open("dataset/atis-2.dev.w-intent.iob", mode="r", encoding="utf-8").readlines()
 
 # train_data = io.open("dataset/atis.train.w-pos-intent.iob", mode="r", encoding="utf-8").readlines()
 # test_data = io.open("dataset/atis.test.w-pos-intent.iob", mode="r", encoding="utf-8").readlines()
 
-all_data = io.open("persian_dataset/all.iob", mode="r", encoding="utf-8").readlines()
-train_data, test_data = train_test_split(all_data,test_size=0.2,random_state=42)
-train_file = io.open("persian_dataset/train.iob", mode="w", encoding="utf-8")
-test_file = io.open("persian_dataset/test.iob", mode="w", encoding="utf-8")
-for line in train_data:
-    train_file.write('%s' % line)
-for line in test_data:
-    test_file.write('%s' % line)
-train_file.close()
-test_file.close()
+# all_data = io.open("persian_dataset/all.iob", mode="r", encoding="utf-8").readlines()
+# train_data, test_data = train_test_split(all_data,test_size=0.2,random_state=42)
+# train_file = io.open("persian_dataset/train.iob", mode="w", encoding="utf-8")
+# test_file = io.open("persian_dataset/test.iob", mode="w", encoding="utf-8")
+# for line in train_data:
+#     train_file.write('%s' % line)
+# for line in test_data:
+#     test_file.write('%s' % line)
+# train_file.close()
+# test_file.close()
 
-train_data_word_text, train_data_lable_text, train_data_intent_text = data_pipeline2(train_data)
-test_data_word_text, test_data_lable_text, test_data_intent_text = data_pipeline2(test_data)
-# train_data_word_text, train_data_lable_text, train_data_intent_text = data_pipeline(train_data)
-# test_data_word_text, test_data_lable_text, test_data_intent_text = data_pipeline(test_data)
+# train_data_word_text, train_data_lable_text, train_data_intent_text = data_pipeline2(train_data)
+# test_data_word_text, test_data_lable_text, test_data_intent_text = data_pipeline2(test_data)
+train_data_word_text, train_data_lable_text, train_data_intent_text = data_pipeline(train_data)
+test_data_word_text, test_data_lable_text, test_data_intent_text = data_pipeline(test_data)
 # print(train_data_word_text[1])
 # print(train_data_lable_text[1])
 # print(train_data_lable_text[1])
@@ -168,10 +168,10 @@ for i in range(n_epochs):
     # print(train_data_lable_text[0])
     # print(train_data_word_text[0])
 
-    # prec, rec, f1 = conlleval(train_pred_lable_text, train_data_lable_text, train_data_lable_text, 'r.txt')
-    # train_f_scores.append(f1)
-    # print("train:")
-    # print('Loss = {}, Precision = {}, Recall = {}, F1 = {}'.format(avgLoss, prec, rec, f1))
+    prec, rec, f1 = conlleval(train_pred_lable_text, train_data_lable_text, train_data_lable_text, 'r.txt')
+    train_f_scores.append(f1)
+    print("train:")
+    print('Loss = {}, Precision = {}, Recall = {}, F1 = {}'.format(avgLoss, prec, rec, f1))
     
     print("Validating =>")
     
@@ -230,15 +230,15 @@ for i in range(n_epochs):
     plt.legend()
     plt.savefig('foo.png')
     plt.pause(0.1)
-    # predword_val = [ list(map(lambda x: index2slot[x], y)) for y in val_pred_label]
-    # prec, rec, f1 = conlleval(predword_val, test_data_lable_text, test_data_lable_text, 'r.txt')
-    # val_f_scores.append(f1)
-    # print('Loss = {}, Precision = {}, Recall = {}, F1 = {}'.format(avgLoss, prec, rec, f1))
+    predword_val = [ list(map(lambda x: index2slot[x], y)) for y in val_pred_label]
+    prec, rec, f1 = conlleval(predword_val, test_data_lable_text, test_data_lable_text, 'r.txt')
+    val_f_scores.append(f1)
+    print('Loss = {}, Precision = {}, Recall = {}, F1 = {}'.format(avgLoss, prec, rec, f1))
 
-    # if f1 > best_val_f1:
-    # 	best_val_f1 = f1
-    # 	open('model_architecture.json','w').write(model.to_json())
-    # 	model.save_weights('best_model_weights.h5',overwrite=True)
-    # 	print("Best validation F1 score = {}".format(best_val_f1))
-    # print()
+    if f1 > best_val_f1:
+    	best_val_f1 = f1
+    	open('model_architecture.json','w').write(model.to_json())
+    	model.save_weights('best_model_weights.h5',overwrite=True)
+    	print("Best validation F1 score = {}".format(best_val_f1))
+    print()
     

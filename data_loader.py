@@ -127,8 +127,8 @@ def to_index(seq_in, seq_out, intent, word2index, slot2index, intent2index):
 
     for sent in seq_out:
         sout_ix.append(list(map(lambda i: slot2index[i] if i in slot2index else slot2index["<UNK>"], sent)))
-
-    intent_ix = intent2index[intent] if intent in intent2index else intent2index["<UNK>"]
+    for sent in intent:
+        intent_ix.append(intent2index[sent] if sent in intent2index else intent2index["<UNK>"])
     return sin_ix,sout_ix, intent_ix
 
 def word_lable_intent_splitter(data, type):

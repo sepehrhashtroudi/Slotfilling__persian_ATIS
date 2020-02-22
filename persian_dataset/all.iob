@@ -23,30 +23,30 @@ BOS لامپو بزن EOS	O command_on device_lamp O lamp_command_on
 BOS لامپ ها رو خاموش کن EOS	O O command_off O O device_lamp O lamp_command_off
 BOS چراغو روشن کن EOS	O O command_on device_lamp O lamp_command_on
 BOS لامپ اتاق پذیرایی رو بزن EOS	O command_on O loc O device_lamp O lamp_command_on
-BOS در پارکینگو میزنی EOS	O command_open loc device_pdoor O pdoor_command_open
-BOS در پارکینگ را باز کن EOS	O O command_open O loc device_pdoor O pdoor_command_open
-BOS پارکینگ رو ببند EOS	O command_close O loc O pdoor_command_close
-BOS در پارکینگ رو بازش کن EOS	O O command_open O loc device_pdoor O pdoor_command_open
-BOS در پارکینگ رو ببند EOS	O command_close O loc device_pdoor O pdoor_command_close
-BOS در پارکینگ باز کن EOS	O O command_open loc device_pdoor O pdoor_command_open
-BOS در پارکینگ ببند EOS	O command_close loc device_pdoor O pdoor_command_close
-BOS در پارکینگو وا کن EOS	O O command_open loc device_pdoor O pdoor_command_open
-BOS در پارکینگو باز کنین EOS	O O command_open loc device_pdoor O pdoor_command_open
-BOS درب پارکینگ را باز کنید EOS	O O command_open O loc device_pdoor O pdoor_command_open
-BOS در پارکینگ را باز کن EOS	O O command_open O loc device_pdoor O pdoor_command_open
-BOS در پارکینگ رو بزن EOS	O command_open O loc device_pdoor O pdoor_command_open
-BOS درب پارکینگ را ببند EOS	O command_close O loc device_pdoor O pdoor_command_close
-BOS در پارکینگو ببند EOS	O command_close loc device_pdoor O pdoor_command_close
-BOS در پارکینگو بزن EOS	O command_open loc device_pdoor O pdoor_command_open
-BOS باز کن EOS	O O command_open O pdoor_command_open
-BOS در پارکینگ رو قفل کن EOS	O O command_close O loc device_pdoor O pdoor_command_lock
-BOS ریموت پارکینگو بزن EOS	O command_open loc O O pdoor_command_open
-BOS پارکینگو ببند EOS	O command_close loc O pdoor_command_close
-BOS پارکینگو ببیند EOS	O command_close loc O pdoor_command_close
+BOS در پارکینگو میزنی EOS	O command_open loc device_door O door_command_open
+BOS در پارکینگ را باز کن EOS	O O command_open O loc device_door O door_command_open
+BOS پارکینگ رو ببند EOS	O command_close O loc O door_command_close
+BOS در پارکینگ رو بازش کن EOS	O O command_open O loc device_door O door_command_open
+BOS در پارکینگ رو ببند EOS	O command_close O loc device_door O door_command_close
+BOS در پارکینگ باز کن EOS	O O command_open loc device_door O door_command_open
+BOS در پارکینگ ببند EOS	O command_close loc device_door O door_command_close
+BOS در پارکینگو وا کن EOS	O O command_open loc device_door O door_command_open
+BOS در پارکینگو باز کنین EOS	O O command_open loc device_door O door_command_open
+BOS درب پارکینگ را باز کنید EOS	O O command_open O loc device_door O door_command_open
+BOS در پارکینگ را باز کن EOS	O O command_open O loc device_door O door_command_open
+BOS در پارکینگ رو بزن EOS	O command_open O loc device_door O door_command_open
+BOS درب پارکینگ را ببند EOS	O command_close O loc device_door O door_command_close
+BOS در پارکینگو ببند EOS	O command_close loc device_door O door_command_close
+BOS در پارکینگو بزن EOS	O command_open loc device_door O door_command_open
+BOS باز کن EOS	O O command_open O door_command_open
+BOS در پارکینگ رو قفل کن EOS	O O command_close O loc device_door O door_command_close
+BOS ریموت پارکینگو بزن EOS	O command_open loc O O door_command_open
+BOS پارکینگو ببند EOS	O command_close loc O door_command_close
+BOS پارکینگو ببیند EOS	O command_close loc O door_command_close
 BOS درو باز کن لطفا EOS	O O O command_open device_door O door_command_open
 BOS در خونه رو ببند EOS	O command_close O loc device_door O door_command_close
 BOS درو قفل کن EOS	O O command_close device_door O door_command_lock
-BOS درب خانه را قفل کن EOS	O O command_close O loc device_door O door_command_lock
+BOS درب خانه را قفل کن EOS	O O command_close O loc device_door O door_command_close
 BOS درو بزن EOS	O command_open device_door O door_command_open
 BOS در رو باز کن EOS	O O command_open O device_door O door_command_open
 BOS در رو ببند EOS	O command_close O device_door O door_command_close
@@ -65,20 +65,20 @@ BOS درو ببند EOS	O command_close device_door O door_command_close
 BOS در بسته شود EOS	O O command_close device_door O door_command_close
 BOS پرده رو بکش EOS	O command_open O device_curtain O curtain_command_open
 BOS لطفا پرده رو بکش EOS	O command_open O device_curtain O O curtain_command_open
-BOS پرده رو بده بالا EOS	O command_open O O device_curtain O curtain_command_close
+BOS پرده رو بده بالا EOS	O command_open O O device_curtain O curtain_command_open
 BOS یه ذره پرده رو میکشی بالا EOS	O command_open O O device_curtain O O O curtain_command_close
-BOS پرده رو بزن کنار EOS	O command_open O O device_curtain O curtain_command_close
-BOS پرده ها رو بزن کنار EOS	O command_open O O O device_curtain O curtain_command_close
-BOS پرده رو بالا بکش EOS	O O command_open O device_curtain O curtain_command_close
-BOS پرده رو بزن بالا EOS	O command_open O O device_curtain O curtain_command_close
-BOS پرده رو کامل بکش کنار EOS	O command_open O O O device_curtain O curtain_command_close
-BOS کرکره ها رو بکش پایین EOS	O command_close O O O device_curtain O curtain_command_open
+BOS پرده رو بزن کنار EOS	O command_open O O device_curtain O curtain_command_open
+BOS پرده ها رو بزن کنار EOS	O command_open O O O device_curtain O curtain_command_open
+BOS پرده رو بالا بکش EOS	O O command_open O device_curtain O curtain_command_open
+BOS پرده رو بزن بالا EOS	O command_open O O device_curtain O curtain_command_open
+BOS پرده رو کامل بکش کنار EOS	O command_open O O O device_curtain O curtain_command_open
+BOS کرکره ها رو بکش پایین EOS	O command_close O O O device_curtain O curtain_command_close
 BOS پرده رو بکش EOS	O command_open O device_curtain O curtain_command_open
 BOS پرده را بکشید EOS	O command_open O device_curtain O curtain_command_open
-BOS پرده های اتاق خواب رو بده بالا EOS	O command_open O O loc_room_B loc_room_I O device_curtain O curtain_command_close
-BOS پرده رو نصفه بده پایین EOS	O command_close O O O device_curtain O curtain_command_open
+BOS پرده های اتاق خواب رو بده بالا EOS	O command_open O O loc_room_B loc_room_I O device_curtain O curtain_command_open
+BOS پرده رو نصفه بده پایین EOS	O command_close O O O device_curtain O curtain_command_close
 BOS پرده رو تا ته بکش EOS	O command_open O O O device_curtain O curtain_command_open
-BOS پرده های اتاق پذیرایی رو بده بالا EOS	O command_open O O loc O O device_curtain O curtain_command_close
+BOS پرده های اتاق پذیرایی رو بده بالا EOS	O command_open O O loc O O device_curtain O curtain_command_open
 BOS دما رو دو درجه بیشتر کن EOS	O O command_increase O delta_temp O device_split_B O split_command_temp
 BOS دما رو روی حالت نرمال قرار بده EOS	O O command_set command_mode_normal O O O device_split_B O split_command_temp
 BOS دما اسپلیتو رو 20 درجه بزار EOS	O command_set O temp_value O device_split_I device_split_B O split_command_temp
