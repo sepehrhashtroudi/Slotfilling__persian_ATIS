@@ -18,6 +18,7 @@ from keras.layers import Convolution1D, MaxPooling1D, Bidirectional,Input, Embed
 import progressbar
 from keras.utils import plot_model
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import f1_score
 import matplotlib.pyplot as plt
 
 # train_data = io.open("dataset/atis-2.train.w-intent.iob", mode="r", encoding="utf-8").readlines()
@@ -109,12 +110,11 @@ print(model.summary())
 ### Training
 n_epochs = 100
 
-train_f_scores = []
-val_f_scores = []
+
 best_val_f1 = 0
 train_acc_epoch = []
 test_acc_epoch = []
-
+test_f1_epoch = []
 for i in range(n_epochs):
     print("Epoch {}".format(i))
     
@@ -178,7 +178,8 @@ for i in range(n_epochs):
     val_pred_label = []
     val_pred_intent = []
     avgLoss = 0
-    
+    train_f_scores = []
+    test_f_scores = []
     test_slot_acc_list = []
     test_intent_acc_list = []
     bar = progressbar.ProgressBar(len(test_data_word_index))
@@ -199,26 +200,31 @@ for i in range(n_epochs):
         val_pred_label.append(slot_pred)
         val_pred_intent.append(intent_pred)
         acc = metric.accuracy_score(label,slot_pred)
+        f1  = f1_score(label,slot_pred,average='micro')
+        test_f_scores.append(f1)
         test_slot_acc_list.append(acc)
         test_intent_acc_list.append(intent_pred == intent_label)
         # print("batch:{}          ".format(n_batch))
     print("slot test accuracy{}".format(np.average(test_slot_acc_list)))
     print("intent test accuracy{}".format(np.average(test_intent_acc_list)))
     test_acc_epoch.append(np.average(test_slot_acc_list))
+    f1_score_this_epoch = np.average(test_f_scores)
+    test_f1_epoch.append(np.average(test_f_scores))
+    print("test f1:{}".format(np.average(test_f_scores)))
     test_pred_lable_text = [ list(map(lambda x: index2slot[x], y)) for y in val_pred_label]
     test_pred_intent_text = [ index2intent[i] for i in val_pred_intent]
-    for i in range(len(test_data_word_index)):
-        if (test_intent_acc_list[i] != 1):
-            print(test_pred_intent_text[i])
-            print(test_data_intent_text[i])
-        #     print(test_data_word_text[i])
-        if(test_slot_acc_list[i] != 1):
-            print(test_pred_lable_text[i])
-            print(test_data_lable_text[i])
-            print(test_data_word_text[i])
-            # print(test_data_lable_index[i])
-            # print(val_pred_label[i])
-            print(test_slot_acc_list[i])
+    # for i in range(len(test_data_word_index)):
+    #     if (test_intent_acc_list[i] != 1):
+    #         print(test_pred_intent_text[i])
+    #         print(test_data_intent_text[i])
+    #     #     print(test_data_word_text[i])
+    #     if(test_slot_acc_list[i] != 1):
+    #         print(test_pred_lable_text[i])
+    #         print(test_data_lable_text[i])
+    #         print(test_data_word_text[i])
+    #         # print(test_data_lable_index[i])
+    #         # print(val_pred_label[i])
+    #         print(test_slot_acc_list[i])
     avgLoss = avgLoss/n_batch
 
     plt.close()
@@ -235,10 +241,10 @@ for i in range(n_epochs):
     # val_f_scores.append(f1)
     # print('Loss = {}, Precision = {}, Recall = {}, F1 = {}'.format(avgLoss, prec, rec, f1))
 
-    # if f1 > best_val_f1:
-    # 	best_val_f1 = f1
-    # 	open('model_architecture.json','w').write(model.to_json())
-    # 	model.save_weights('best_model_weights.h5',overwrite=True)
-    # 	print("Best validation F1 score = {}".format(best_val_f1))
-    # print()
+    if f1_score_this_epoch > best_val_f1:
+    	best_val_f1 = f1_score_this_epoch
+    	open('model_architecture.json','w').write(model.to_json())
+    	model.save_weights('best_model_weights.h5',overwrite=True)
+    print("Best validation F1 score = {}".format(best_val_f1))
+    print()
     
